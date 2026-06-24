@@ -57,12 +57,12 @@ Before digging into set-up and configuration, make sure your package is complete
 - Post in the Discord Channel under either the #superstationᵒⁿᵉ  or #superstationᵒⁿᵉ-help  channels, and tag a mod for additional help.
 
 ## The SuperStationᵒⁿᵉ is designed to be relatively plug and play
-The SuperStation by default, runs on the MiSTer Operating System. 
-If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation.
-
 Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
 Use a modern USB-C Power Delivery (PD) charger and a high-quality USB-C cable (like the one included in your package). The recommended power profile for the SuperStation is 9V/3A, although 5V or 12V will also work, provided the charger supports USB Power Delivery (PD).
 This allows you to complete the initial setup and verify that everything is functioning correctly.
+
+The SuperStation by default, runs on the MiSTer Operating System. 
+If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation.
 
 ## NO Copyright Material is included on the SD Card Installation
 
