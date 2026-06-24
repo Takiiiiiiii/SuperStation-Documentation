@@ -55,11 +55,37 @@ It is recommended for downloading missing BIOS files required by specific cores.
 For a simple walkthrough, [follow this 5 minute vid](https://youtu.be/QWj00PfZAy8)
 Otherwise, use [Takis BIOS checker to see if you are missing any files.](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/)
 
+** Update_All is not replacing an existing BIOS**
+
+If `Update_All` is not replacing a BIOS file, first delete the BIOS you no longer want from the appropriate directory.
+
+Then, add the following to the top of `downloader.ini` (located in the root of the SD card) and run `update_all.sh`:
+
+```ini
+[MiSTer]
+file_checking = 'exhaustive'
+```
+
+This forces `Update_All` to perform a complete file verification and replace files when necessary.
+
 **Patching your PSX Bios for Game ID**
 
 If you want to use a physical memory card with GameID support on the PS1 (such as MemCardPro or SD2PSX), you must patch the default PSX BIOS. First, remove the included open-source `boot.rom` from the `games/psx` folder and run **Update All**. Once the update is complete, [install and run this script to patch the default PSX BIOS](https://gist.github.com/IncognitoMan/fd1f9fbd5794af83370a5c6b02b7d6ee)
 
-**MiSTer Main**
+## Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?
+
+Yes. To prioritize an external USB drive or an M.2 drive in a dock, add the following to the top of `downloader.ini` (located in the root of the SD card), then run `update_all.sh`:
+
+```ini
+[MiSTer]
+storage_priority = 'prefer_external'
+```
+
+Next, copy the entire `games` directory from the SD card to the external USB drive or M.2 drive.
+
+If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
+
+**MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core**
 
 Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated versions attached to this post.
 
@@ -69,12 +95,12 @@ If you see ghosted lines in the PSX core, especially when using SNAC ports over 
 
 **Preventing Unwanted (Re)Downloads**
 
-You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini, add the argument to your downloader file:
+You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini and a handful of personal computr based cores you don't want, you could add the argument to your downloader.ini file:
 
 ``[MiSTer]
-filter = !misterexampleini``
+filter = !misterexampleini !zxspectrum !spectrum !zxnext !zx81 !vectrex ``
 
-This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs. Read [the following link](https://github.com/theypsilon/Update_All_MiSTer) for more information about configuring Update_All.
+This same "!" method can be used to exclude other cores, configuration files, or other content from future Download/Update_All runs. Read [the following link](https://github.com/theypsilon/Update_All_MiSTer) for more information about configuring Update_All.
 
 **__MiSTer SD Card Migration to SS One__**
 
