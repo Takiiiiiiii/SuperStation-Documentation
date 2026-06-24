@@ -17,11 +17,18 @@ If you ordered the console by itself, you should have gotten:
   
 If you ordered a BUNDLE, which includes the console and dock, you should have gotten:
 - The Super Station Console
-- The Super Station Dock
+- The Super Station Dock (already attached to the SS One console).
 - An IR Remote for controlling navigation and the functions of the DVD Drive
 - An HDMI cable
 - A USB-C Braided Cable (Power Supply not included!)
 - SD Card (preinstalled into the unit and flashed with a stock image that includes Homebrew apps)
 - A plastic cover for the Dock port.
 - A Business Card sized User Placard with a QR Code and basic information
-- Founder's Edition Units also come with a a Superstation sticker, and a Retro Remake sticker. 
+- Founder's Edition Units also come with a a Superstation sticker, and a Retro Remake sticker.
+
+## Recommended first steps once you recieve your console.
+
+Make sure your package is complete and has all expected items. If you are missing anything, you can:
+- Directly respond to your Order E-mail to contact Customer Service with the missing item in the email.
+- [Send a new email](sales@retroremake.co) with your order number in the subject line and a description of the issue
+- Post in the Discord Channel under either the #superstationᵒⁿᵉ  or #superstationᵒⁿᵉ-help  channels, and tag a mod for additional help.
