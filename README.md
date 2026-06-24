@@ -16,7 +16,6 @@
     * [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
     * [MiSTer SD Card Migration to SS One](#mister-sd-card-migration-to-ss-one)
     * [SS1 Color (Black and White) Display Issue over S-Video or Composite](#ss1-color-black-and-white-display-issue-over-s-video-or-composite)
-    * [To support these cores using a more universal but lower quality method, do the following](#to-support-these-cores-using-a-more-universal-but-lower-quality-method-do-the-following)
     * [CIFS Mounting for network storage and related automatic scripts](#cifs-mounting-for-network-storage-and-related-automatic-scripts)
     * [SS Dock Disc Tray Mod (Thanks to user Omn1Slash for the photos)](#ss-dock-disc-tray-mod-thanks-to-user-omn1slash-for-the-photos)
     * [SS One Video Dip Switch Descriptions](#ss-one-video-dip-switch-descriptions)
