@@ -12,7 +12,7 @@
     * [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
     * [Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-m2-in-a-dock-for-rom-storage)
     * [MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core](#mister-main-update-with-vrr-lookahead-hdmi---cec-errors-displaying-after-loading-a-core)
-    * [PSX Core Ghosting](#psx-core-ghosting)
+    * [PSX Core Ghosting](#PSX-Core-Ghosting-on-Analog-Televisions)
     * [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
     * [MiSTer SD Card Migration to SS One](#mister-sd-card-migration-to-ss-one)
     * [SS1 Color (Black and White) Display Issue over S-Video or Composite](#ss1-color-black-and-white-display-issue-over-s-video-or-composite)
@@ -108,7 +108,7 @@ Next, copy the entire `games` directory from the SD card to the external USB dri
 
 Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated INI files located on this Github. 
 
-### PSX Core Ghosting
+### PSX Core Ghosting on Analog Televisions
 
 If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with the version located on this Github. A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
 
