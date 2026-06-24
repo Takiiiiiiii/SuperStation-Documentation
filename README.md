@@ -41,6 +41,10 @@ Before powering on the console for the first time, connect it to a TV or support
 Use a modern USB-C Power Delivery (PD) charger and a high-quality USB-C cable (like the one included in your package). The recommended power profile for the SuperStation is 9V/3A, although 5V or 12V will also work, provided the charger supports USB Power Delivery (PD).
 This allows you to complete the initial setup and verify that everything is functioning correctly.
 
+## NO Copyright Material is included on the SD Card Installation
+
+This means that any BIOS files on the card are "open" versions that can be used to run games with. However, you may find that some Game Cores may still not run games that you add without additional BIOS files that the cores are dependent upon. See advanced configuration below for potential solutions. 
+
 # Advanced Configuration Topics
 
 ## Update_All Guide & Important Config Notes
@@ -66,9 +70,19 @@ If you see ghosted lines in the PSX core, especially when using SNAC ports over 
 **Preventing Unwanted (Re)Downloads**
 
 You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini, add the argument to your downloader file:
-```[MiSTer]
-filter = !misterexampleini```
-This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs.
+``[MiSTer]
+filter = !misterexampleini``
+This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs. Read [the following link](https://github.com/theypsilon/Update_All_MiSTer) for more information about configuring Update_All.
 
 **__MiSTer SD Card Migration to SS One__**
 If you want to transfer over an existing MiSTer installation from another pre-configured device to your new SS One, then you can [use the MIGRATE_sd.sh utility found at this link.](https://github.com/Natrox/MiSTer_Utils_Natrox)
+
+__**SS1 Color (Black and White) Display Issue over S-Video or Composite**__
+By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It produces a higher quality signal for S-Video and Composite. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
+
+__To support these cores using a more universal but lower quality method, do the following:__
+1. Flip DIP SWITCH 3 UP on the side of the SS1.
+2. Open the main menu, and move Left to select a Mister Inis.
+3. Select the **S-Video** profile. 
+4. Set DIP SWITCH 2 DOWN if using a NTSC TV or UP if using a PAL TV.
+-# With time, more stable core releases with subcarrier support will hopefully be rolled out, but this is a way to fix it for now.
