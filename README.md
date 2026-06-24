@@ -75,12 +75,15 @@ filter = !misterexampleini``
 This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs. Read [the following link](https://github.com/theypsilon/Update_All_MiSTer) for more information about configuring Update_All.
 
 **__MiSTer SD Card Migration to SS One__**
+
 If you want to transfer over an existing MiSTer installation from another pre-configured device to your new SS One, then you can [use the MIGRATE_sd.sh utility found at this link.](https://github.com/Natrox/MiSTer_Utils_Natrox)
 
 __**SS1 Color (Black and White) Display Issue over S-Video or Composite**__
+
 By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It produces a higher quality signal for S-Video and Composite. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
 
 __To support these cores using a more universal but lower quality method, do the following:__
+
 1. Flip DIP SWITCH 3 UP on the side of the SS1.
 2. Open the main menu, and move Left to select a Mister Inis.
 3. Select the **S-Video** profile. 
