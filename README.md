@@ -9,6 +9,9 @@ Additionally, if you are looking for an active community of SuperStationᵒⁿ�
 ## Contents of Each Package
 
 If you ordered the console by itself, you should have gotten:
+
+---
+
 - The Super Station Console
 - An HDMI cable
 - A USB-C Braided Cable (Power Supply not included!)
@@ -17,6 +20,9 @@ If you ordered the console by itself, you should have gotten:
 - Founder's Edition Units also come with a a Superstation sticker, and a Retro Remake sticker.
   
 If you ordered a BUNDLE, which includes the console and dock, you should have gotten:
+
+---
+
 - The Super Station Console
 - The Super Station Dock (already attached to the SS One console).
 - An IR Remote for controlling navigation and the functions of the DVD Drive
