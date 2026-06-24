@@ -127,9 +127,9 @@ If you want to transfer over an existing MiSTer installation from another pre-co
 
 ### SS1 Color (Black and White) Display Issue over S-Video or Composite
 
-By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It produces a higher quality signal for S-Video and Composite. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config.
+By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It produces a higher quality signal for S-Video and Composite. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
 
-### To support these cores using a more universal but lower quality method, do the following
+To support these cores using a more universal but lower quality method, do the following
 
 1. Flip DIP SWITCH 3 UP on the side of the SS1.
 2. Open the main menu, and move Left to select a Mister Inis.
