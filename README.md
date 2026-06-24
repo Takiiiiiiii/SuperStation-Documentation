@@ -10,6 +10,18 @@ Additionally, if you are looking for an active community of SuperStationᵒⁿ�
 If you ordered the console by itself, you should have gotten:
 - The Super Station Console
 - An HDMI cable
+- A USB-C Braided Cable (Power Supply not included!)
 - SD Card (preinstalled into the unit and flashed with a stock image that includes Homebrew apps)
 - A Business Card sized User Placard with a QR Code and basic information
-- Founder's Edition Units also come with a few Superstation Based Stickers
+- Founder's Edition Units also come with a a Superstation sticker, and a Retro Remake sticker.
+  
+If you ordered a BUNDLE, which includes the console and dock, you should have gotten:
+- The Super Station Console
+- The Super Station Dock
+- An IR Remote for controlling navigation and the functions of the DVD Drive
+- An HDMI cable
+- A USB-C Braided Cable (Power Supply not included!)
+- SD Card (preinstalled into the unit and flashed with a stock image that includes Homebrew apps)
+- A plastic cover for the Dock port.
+- A Business Card sized User Placard with a QR Code and basic information
+- Founder's Edition Units also come with a a Superstation sticker, and a Retro Remake sticker. 
