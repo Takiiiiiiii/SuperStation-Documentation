@@ -91,3 +91,39 @@ __To support these cores using a more universal but lower quality method, do the
 3. Select the **S-Video** profile. 
 4. Set DIP SWITCH 2 DOWN if using a NTSC TV or UP if using a PAL TV.
 -# With time, more stable core releases with subcarrier support will hopefully be rolled out, but this is a way to fix it for now.
+
+__**CIFS Mounting, for network storage and related automatic scripts.**__
+
+If you intend to use CIFS mounting with your MiSTer based device, note that CIFS shares may fail to mount during boot. [This is a long-standing, well-documented MiSTer issue that you can read about here](https://github.com/MiSTer-devel/Scripts_MiSTer/issues/88)
+
+To fix it, a corrected version of the scripts [can be found here](https://github.com/MiSTer-devel/Scripts_MiSTer/issues/88#issuecomment-4402795197)
+
+__**SS Dock Disc Tray Mod (Thanks to user Omn1Slash for the photos).**__
+
+If you experience issues with the disc tray not opening smoothly or becoming stuck during operation, try slightly loosening the screw in photo 3 to allow the tray to slide more freely. Additionally, carefully trimming the plastic in the areas indicated in photos 1 and 2 may help reduce the risk of exposed plastic burrs catching on other drive components. 
+
+This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
+
+**SS One Video Dip Switch Descriptions**
+
+This applies to all units produced after December 2025:
+
+1. YC/Composite Region
+Up = PAL, Down = NTSC
+
+2. FPGA LUMA Trap
+Up = PAL, Down = NTSC
+
+3. YC / Composite Mode
+Up = FPGA, Down = Sony
+
+4. Sync on Green Up = Off, Down = Add
+
+**PAL Considerations over Analog CRT Sets**
+Potential Useful PAL setup:
+1. `menu_pal=1` set in MiSTer.ini,
+2. DIP Switch 1 up,
+3, Cores set to PAL
+
+Setting cores to Auto or NTSC means black & white games as its running in NTSC mode, so that's an expected outcome for a PAL display
+
