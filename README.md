@@ -1,6 +1,6 @@
 # SuperStation-Documentation
 
-![Super Station One Console and Dock](https://retroremake.co/cdn/shop/files/SuperDock.jpg)
+<img src="https://retroremake.co/cdn/shop/files/SuperDock.jpg" width="400">
 
 * [Getting Started](#getting-started)
 * [Contents of Each Package](#contents-of-each-package)
@@ -24,8 +24,8 @@
 
 ## Getting Started
 
-If you have just received a SuperStationᵒⁿᵉ, and this is your first MiSTer based device, then welcome to the MiSTer Ecosystem!
-There are many things to learn about how MiSTer works as a platform, and the resources online are numerous. If you need an exhaustive reference to what the project entails, please review the subjects covered [here](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki). You will find a lot of basic information about functionality of the project and expectations when using MiSTer based devices.
+If you have just received a SuperStationᵒⁿᵉ, and this is your first MiSTer based device, then welcome to the MiSTer Ecosystem! 
+There are many things to learn about how MiSTer works as a platform, and the resources online are numerous. If you need an exhaustive reference to what the project entails, please [review the subjects covered here](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki). You will find a lot of basic information about functionality of the project and expectations when using MiSTer based devices.
 
 Additionally, if you are looking for an active community of SuperStationᵒⁿᵉ and MiSTer Pi users, you may also join the [Official Discord Channel](https://discord.com/invite/2EYTb8N) or read related topics on the [Official Retro Remake Reddit](https://www.reddit.com/r/RetroRemake/).
 
@@ -148,12 +148,7 @@ To fix it, a corrected version of the scripts [can be found here](https://github
 
 If you experience issues with the disc tray not opening smoothly or becoming stuck during operation, try slightly loosening the screw in photo 3 to allow the tray to slide more freely. Additionally, carefully trimming the plastic in the areas indicated in photos 1 and 2 may help reduce the risk of exposed plastic burrs catching on other drive components.
 
-<img src="[https://github.com/Takiiiiiiii/SuperStation-Documentation/blob/main/dock1.jpg]" style="width: 25%;">
-
-
-![Dock Photo 1](/dock1.jpg)
-![Dock Photo 2](/dock2.jpg)
-![Dock Photo 3](/dock3.jpg)
+<img src="/dock1.jpg" width="300"> <img src="/dock2.jpg" width="300"> <img src="/dock3.jpg" width="300">
 
 This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
 
