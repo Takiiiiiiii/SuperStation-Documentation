@@ -30,5 +30,5 @@ If you ordered a BUNDLE, which includes the console and dock, you should have go
 
 Make sure your package is complete and has all expected items. If you are missing anything, you can:
 - Directly respond to your Order E-mail to contact Customer Service with the missing item in the email.
-- [Send a new email](sales@retroremake.co) with your order number in the subject line and a description of the issue
+- [Send a new email](mailto:sales@retroremake.co) with your order number in the subject line and a description of the issue
 - Post in the Discord Channel under either the #superstationᵒⁿᵉ  or #superstationᵒⁿᵉ-help  channels, and tag a mod for additional help.
