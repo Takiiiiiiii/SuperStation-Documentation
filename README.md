@@ -57,9 +57,7 @@ Otherwise, use [Takis BIOS checker to see if you are missing any files.](https:/
 
 **__Update_All is not replacing an existing BIOS__**
 
-If `Update_All` is not replacing a BIOS file, first delete the BIOS you no longer want from the appropriate directory.
-
-Then, add the following to the top of `downloader.ini` (located in the root of the SD card) and run `update_all.sh`:
+If `Update_All` is not replacing a BIOS file, first delete the BIOS you no longer want from the appropriate directory. Then, add the following to the top of `downloader.ini` (located in the root of the SD card) and run `update_all.sh`:
 
 ```ini
 [MiSTer]
