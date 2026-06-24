@@ -29,7 +29,14 @@ Additionally, if you are looking for an active community of SuperStationᵒⁿ�
 
 ## Recommended first steps once you recieve your console.
 
-Make sure your package is complete and has all expected items. If you are missing anything, you can:
+Before digging into set-up and configuration, make sure your package is complete and has all expected items. If you are missing anything, you can:
 - Directly respond to your Order E-mail to contact Customer Service with the missing item in the email.
 - [Send a new email](mailto:sales@retroremake.co) with your order number in the subject line and a description of the issue
 - Post in the Discord Channel under either the #superstationᵒⁿᵉ  or #superstationᵒⁿᵉ-help  channels, and tag a mod for additional help.
+
+## The SuperStationᵒⁿᵉ is designed to be relatively plug and play. 
+The SuperStation runs on the MiSTer Operating System. If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)
+
+Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
+Use a modern USB-C Power Delivery (PD) charger and a high-quality USB-C cable (like the one included in your package). The recommended power profile for the SuperStation is 9V/3A, although 5V or 12V will also work, provided the charger supports USB Power Delivery (PD).
+This allows you to complete the initial setup and verify that everything is functioning correctly.
