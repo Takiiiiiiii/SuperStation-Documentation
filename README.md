@@ -24,7 +24,9 @@
 ## Getting Started
 
 If you have just received a SuperStationᵒⁿᵉ, and this is your first MiSTer based device, then welcome to the MiSTer Ecosystem! 
-There are many things to learn about how MiSTer works as a platform, and the resources online are numerous. If you need an exhaustive reference to what the project entails, please [review the subjects covered here](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki). You will find a lot of basic information about functionality of the project and expectations when using MiSTer based devices.
+The SuperStation One is, first and foremost, a MiSTer-based device that builds upon years of development, refinement, and standards established by the MiSTer ecosystem and its contributors. As a result, understanding the platform may require familiarity with MiSTer concepts, documentation, and workflows.
+
+For a comprehensive overview of the project, including its functionality, history, and community standards, refer to the [MiSTer Development Wiki](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki). Additional operational guidance is available through the [MiSTer FPGA Documentation website](https://mister-devel.github.io/MkDocs_MiSTer/), which serves as a practical reference for configuring and using MiSTer-based devices.
 
 Additionally, if you are looking for an active community of SuperStationᵒⁿᵉ and MiSTer Pi users, you may also join the [Official Discord Channel](https://discord.com/invite/2EYTb8N) or read related topics on the [Official Retro Remake Reddit](https://www.reddit.com/r/RetroRemake/).
 
