@@ -106,11 +106,11 @@ Next, copy the entire `games` directory from the SD card to the external USB dri
 
 ### MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core
 
-Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated versions attached to this post.
+Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated INI files located on this Github. 
 
 ### PSX Core Ghosting
 
-If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with the version attached to this post. A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
+If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with the version located on this Github. A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
 
 ### Preventing Unwanted (Re)Downloads
 
@@ -148,6 +148,13 @@ To fix it, a corrected version of the scripts [can be found here](https://github
 
 If you experience issues with the disc tray not opening smoothly or becoming stuck during operation, try slightly loosening the screw in photo 3 to allow the tray to slide more freely. Additionally, carefully trimming the plastic in the areas indicated in photos 1 and 2 may help reduce the risk of exposed plastic burrs catching on other drive components.
 
+<img src="[https://github.com/Takiiiiiiii/SuperStation-Documentation/blob/main/dock1.jpg]" style="width: 25%;">
+
+
+![Dock Photo 1](/dock1.jpg)
+![Dock Photo 2](/dock2.jpg)
+![Dock Photo 3](/dock3.jpg)
+
 This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
 
 ### SS One Video Dip Switch Descriptions
@@ -156,10 +163,8 @@ This applies to all units produced after December 2025:
 
 1. YC/Composite Region
 Up = PAL, Down = NTSC
-
 2. FPGA LUMA Trap
 Up = PAL, Down = NTSC
-
 3. YC / Composite Mode
 Up = FPGA, Down = Sony
 
