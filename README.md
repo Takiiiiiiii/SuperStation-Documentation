@@ -5,7 +5,7 @@
 * [Getting Started](#getting-started)
 * [Contents of Each Package](#contents-of-each-package)
 * [Recommended first steps once you recieve your console](#recommended-first-steps-once-you-recieve-your-console)
-* [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstation-is-designed-to-be-relatively-plug-and-play)
+* [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
 * [NO Copyright Material is included on the SD Card Installation](#no-copyright-material-is-included-on-the-sd-card-installation)
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
