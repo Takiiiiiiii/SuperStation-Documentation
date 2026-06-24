@@ -68,4 +68,7 @@ If you see ghosted lines in the PSX core, especially when using SNAC ports over 
 You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini, add the argument to your downloader file:
 ```[MiSTer]
 filter = !misterexampleini```
--# This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs.*
+This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs.
+
+**__MiSTer SD Card Migration to SS One__**
+If you want to transfer over an existing MiSTer installation from another pre-configured device to your new SS One, then you can [use the MIGRATE_sd.sh utility found at this link.](https://github.com/Natrox/MiSTer_Utils_Natrox)
