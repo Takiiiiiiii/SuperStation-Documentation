@@ -49,13 +49,13 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 ## Update_All Guide & Important Config Notes
 
-**YES, Update_All is safe to use on the Super Station One.** 
+**__YES, Update_All is safe to use on the Super Station One.__** 
 
 It is recommended for downloading missing BIOS files required by specific cores.
 For a simple walkthrough, [follow this 5 minute vid](https://youtu.be/QWj00PfZAy8)
 Otherwise, use [Takis BIOS checker to see if you are missing any files.](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/)
 
-**Update_All is not replacing an existing BIOS**
+**__Update_All is not replacing an existing BIOS__**
 
 If `Update_All` is not replacing a BIOS file, first delete the BIOS you no longer want from the appropriate directory.
 
@@ -68,11 +68,11 @@ file_checking = 'exhaustive'
 
 This forces `Update_All` to perform a complete file verification and replace files when necessary.
 
-**Patching your PSX Bios for Game ID**
+**__Patching your PSX Bios for Game ID__**
 
 If you want to use a physical memory card with GameID support on the PS1 (such as MemCardPro or SD2PSX), you must patch the default PSX BIOS. First, remove the included open-source `boot.rom` from the `games/psx` folder and run **Update All**. Once the update is complete, [install and run this script to patch the default PSX BIOS](https://gist.github.com/IncognitoMan/fd1f9fbd5794af83370a5c6b02b7d6ee)
 
-## Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?
+**__Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?__**
 
 Yes. To prioritize an external USB drive or an M.2 drive in a dock, add the following to the top of `downloader.ini` (located in the root of the SD card), then run `update_all.sh`:
 
@@ -85,7 +85,7 @@ Next, copy the entire `games` directory from the SD card to the external USB dri
 
 If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
 
-**MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core**
+**__MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core__**
 
 Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated versions attached to this post.
 
