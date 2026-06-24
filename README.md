@@ -55,7 +55,7 @@ It is recommended for downloading missing BIOS files required by specific cores.
 For a simple walkthrough, [follow this 5 minute vid](https://youtu.be/QWj00PfZAy8)
 Otherwise, use [Takis BIOS checker to see if you are missing any files.](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/)
 
-**__Update_All is not replacing an existing BIOS__**
+### **__Update_All is not replacing an existing BIOS__**
 
 If `Update_All` is not replacing a BIOS file, first delete the BIOS you no longer want from the appropriate directory. Then, add the following to the top of `downloader.ini` (located in the root of the SD card) and run `update_all.sh`:
 
@@ -66,11 +66,11 @@ file_checking = 'exhaustive'
 
 This forces `Update_All` to perform a complete file verification and replace files when necessary.
 
-**__Patching your PSX Bios for Game ID__**
+### **__Patching your PSX Bios for Game ID__**
 
 If you want to use a physical memory card with GameID support on the PS1 (such as MemCardPro or SD2PSX), you must patch the default PSX BIOS. First, remove the included open-source `boot.rom` from the `games/psx` folder and run **Update All**. Once the update is complete, [install and run this script to patch the default PSX BIOS](https://gist.github.com/IncognitoMan/fd1f9fbd5794af83370a5c6b02b7d6ee)
 
-**__Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?__**
+### **__Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?__**
 
 Yes. To prioritize an external USB drive or an M.2 drive in a dock, add the following to the top of `downloader.ini` (located in the root of the SD card), then run `update_all.sh`:
 
@@ -81,15 +81,15 @@ storage_priority = 'prefer_external'
 
 Next, copy the entire `games` directory from the SD card to the external USB drive or M.2 drive. If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
 
-**__MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core__**
+### **__MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core__**
 
 Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated versions attached to this post.
 
-**PSX Core Ghosting**
+### **PSX Core Ghosting**
 
 If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with the version attached to this post. A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
 
-**Preventing Unwanted (Re)Downloads**
+### **Preventing Unwanted (Re)Downloads**
 
 You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini and a handful of personal computr based cores you don't want, you could add the argument to your downloader.ini file:
 
@@ -98,15 +98,15 @@ filter = !misterexampleini !zxspectrum !spectrum !zxnext !zx81 !vectrex ``
 
 This same "!" method can be used to exclude other cores, configuration files, or other content from future Download/Update_All runs. Read [the following link](https://github.com/theypsilon/Update_All_MiSTer) for more information about configuring Update_All.
 
-**__MiSTer SD Card Migration to SS One__**
+### **__MiSTer SD Card Migration to SS One__**
 
 If you want to transfer over an existing MiSTer installation from another pre-configured device to your new SS One, then you can [use the MIGRATE_sd.sh utility found at this link.](https://github.com/Natrox/MiSTer_Utils_Natrox)
 
-__**SS1 Color (Black and White) Display Issue over S-Video or Composite**__
+### __**SS1 Color (Black and White) Display Issue over S-Video or Composite**__
 
 By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It produces a higher quality signal for S-Video and Composite. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
 
-__To support these cores using a more universal but lower quality method, do the following:__
+### __To support these cores using a more universal but lower quality method, do the following:__
 
 1. Flip DIP SWITCH 3 UP on the side of the SS1.
 2. Open the main menu, and move Left to select a Mister Inis.
@@ -115,19 +115,19 @@ __To support these cores using a more universal but lower quality method, do the
 
 With time, more stable core releases with subcarrier support will hopefully be rolled out, but this is a way to fix it for now.
 
-__**CIFS Mounting, for network storage and related automatic scripts.**__
+### __**CIFS Mounting, for network storage and related automatic scripts.**__
 
 If you intend to use CIFS mounting with your MiSTer based device, note that CIFS shares may fail to mount during boot. [This is a long-standing, well-documented MiSTer issue that you can read about here](https://github.com/MiSTer-devel/Scripts_MiSTer/issues/88)
 
 To fix it, a corrected version of the scripts [can be found here](https://github.com/MiSTer-devel/Scripts_MiSTer/issues/88#issuecomment-4402795197)
 
-__**SS Dock Disc Tray Mod (Thanks to user Omn1Slash for the photos).**__
+### __**SS Dock Disc Tray Mod (Thanks to user Omn1Slash for the photos).**__
 
 If you experience issues with the disc tray not opening smoothly or becoming stuck during operation, try slightly loosening the screw in photo 3 to allow the tray to slide more freely. Additionally, carefully trimming the plastic in the areas indicated in photos 1 and 2 may help reduce the risk of exposed plastic burrs catching on other drive components. 
 
 This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
 
-**SS One Video Dip Switch Descriptions**
+### **SS One Video Dip Switch Descriptions**
 
 This applies to all units produced after December 2025:
 
@@ -142,7 +142,7 @@ Up = FPGA, Down = Sony
 
 4. Sync on Green Up = Off, Down = Add
 
-**PAL Considerations over Analog CRT Sets**
+### **PAL Considerations over Analog CRT Sets**
 
 Potential Useful PAL setup:
 1. `menu_pal=1` set in MiSTer.ini,
