@@ -81,9 +81,7 @@ Yes. To prioritize an external USB drive or an M.2 drive in a dock, add the foll
 storage_priority = 'prefer_external'
 ```
 
-Next, copy the entire `games` directory from the SD card to the external USB drive or M.2 drive.
-
-If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
+Next, copy the entire `games` directory from the SD card to the external USB drive or M.2 drive. If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
 
 **__MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core__**
 
@@ -116,7 +114,8 @@ __To support these cores using a more universal but lower quality method, do the
 2. Open the main menu, and move Left to select a Mister Inis.
 3. Select the **S-Video** profile. 
 4. Set DIP SWITCH 2 DOWN if using a NTSC TV or UP if using a PAL TV.
--# With time, more stable core releases with subcarrier support will hopefully be rolled out, but this is a way to fix it for now.
+
+With time, more stable core releases with subcarrier support will hopefully be rolled out, but this is a way to fix it for now.
 
 __**CIFS Mounting, for network storage and related automatic scripts.**__
 
