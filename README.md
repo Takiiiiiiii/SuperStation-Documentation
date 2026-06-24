@@ -40,3 +40,27 @@ The SuperStation runs on the MiSTer Operating System. If you prefer, [you can us
 Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
 Use a modern USB-C Power Delivery (PD) charger and a high-quality USB-C cable (like the one included in your package). The recommended power profile for the SuperStation is 9V/3A, although 5V or 12V will also work, provided the charger supports USB Power Delivery (PD).
 This allows you to complete the initial setup and verify that everything is functioning correctly.
+
+# Advanced Configuration Topics
+
+## Update_All Guide & Important Config Notes
+
+**YES, Update_All is safe to use on the Super Station One.** 
+It is recommended for downloading missing BIOS files required by specific cores.
+For a simple walkthrough, [follow this 5 minute vid](https://youtu.be/QWj00PfZAy8)
+Otherwise, use [Takis BIOS checker to see if you are missing any files.](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/)
+
+**Patching your PSX Bios for Game ID**
+If you want to use a physical memory card with GameID support on the PS1 (such as MemCardPro or SD2PSX), you must patch the default PSX BIOS. First, remove the included open-source `boot.rom` from the `games/psx` folder and run **Update All**. Once the update is complete, [install and run this script to patch the default PSX BIOS](https://gist.github.com/IncognitoMan/fd1f9fbd5794af83370a5c6b02b7d6ee)
+
+**MiSTer Main**
+Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated versions attached to this post.
+
+**PSX Core Ghosting**
+If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with the version attached to this post. A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
+
+**Preventing Unwanted (Re)Downloads**
+You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini, add the argument to your downloader file:
+```[MiSTer]
+filter = !misterexampleini```
+-# This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs.*
