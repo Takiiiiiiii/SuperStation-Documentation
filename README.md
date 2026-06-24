@@ -133,13 +133,10 @@ This applies to all units produced after December 2025:
 
 1. YC/Composite Region
 Up = PAL, Down = NTSC
-
 2. FPGA LUMA Trap
 Up = PAL, Down = NTSC
-
 3. YC / Composite Mode
 Up = FPGA, Down = Sony
-
 4. Sync on Green Up = Off, Down = Add
 
 ### **PAL Considerations over Analog CRT Sets**
