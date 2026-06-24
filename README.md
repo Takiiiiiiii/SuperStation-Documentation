@@ -1,1 +1,2 @@
 # SuperStation-Documentation
+## Getting Started
