@@ -120,10 +120,11 @@ Up = FPGA, Down = Sony
 4. Sync on Green Up = Off, Down = Add
 
 **PAL Considerations over Analog CRT Sets**
+
 Potential Useful PAL setup:
 1. `menu_pal=1` set in MiSTer.ini,
 2. DIP Switch 1 up,
-3, Cores set to PAL
+3. Cores set to PAL
 
 Setting cores to Auto or NTSC means black & white games as its running in NTSC mode, so that's an expected outcome for a PAL display
 
