@@ -49,7 +49,7 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 ## Update_All Guide & Important Config Notes
 
-**__YES, Update_All is safe to use on the Super Station One.__** 
+### **__YES, Update_All is safe to use on the Super Station One.__** 
 
 It is recommended for downloading missing BIOS files required by specific cores.
 For a simple walkthrough, [follow this 5 minute vid](https://youtu.be/QWj00PfZAy8)
