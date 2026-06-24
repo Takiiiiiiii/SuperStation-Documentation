@@ -55,7 +55,7 @@ It is recommended for downloading missing BIOS files required by specific cores.
 For a simple walkthrough, [follow this 5 minute vid](https://youtu.be/QWj00PfZAy8)
 Otherwise, use [Takis BIOS checker to see if you are missing any files.](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/)
 
-** Update_All is not replacing an existing BIOS**
+**Update_All is not replacing an existing BIOS**
 
 If `Update_All` is not replacing a BIOS file, first delete the BIOS you no longer want from the appropriate directory.
 
