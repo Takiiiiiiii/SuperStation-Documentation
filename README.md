@@ -125,6 +125,10 @@ To fix it, a corrected version of the scripts [can be found here](https://github
 
 If you experience issues with the disc tray not opening smoothly or becoming stuck during operation, try slightly loosening the screw in photo 3 to allow the tray to slide more freely. Additionally, carefully trimming the plastic in the areas indicated in photos 1 and 2 may help reduce the risk of exposed plastic burrs catching on other drive components. 
 
+![Dock Photo 1](/dock1.jpg)
+![Dock Photo 2](/dock2.jpg)
+![Dock Photo 3](/dock3.jpg)
+
 This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
 
 ### **SS One Video Dip Switch Descriptions**
