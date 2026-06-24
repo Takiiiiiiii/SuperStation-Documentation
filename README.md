@@ -70,8 +70,10 @@ If you see ghosted lines in the PSX core, especially when using SNAC ports over 
 **Preventing Unwanted (Re)Downloads**
 
 You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini, add the argument to your downloader file:
+
 ``[MiSTer]
 filter = !misterexampleini``
+
 This same "!" method can be used to exclude specific cores, configuration files, or other content from future Download/Update_All runs. Read [the following link](https://github.com/theypsilon/Update_All_MiSTer) for more information about configuring Update_All.
 
 **__MiSTer SD Card Migration to SS One__**
