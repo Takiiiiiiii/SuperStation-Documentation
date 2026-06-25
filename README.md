@@ -10,7 +10,7 @@
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
     * [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
-    * [Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-m2-in-a-dock-for-rom-storage)
+    * [Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-nvme-m2-in-a-dock-for-rom-storage)
     * [MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core](#mister-main-update-with-vrr-lookahead-hdmi---cec-errors-displaying-after-loading-a-core)
     * [PSX Core Ghosting](#PSX-Core-Ghosting-on-Analog-Televisions)
     * [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
@@ -95,16 +95,16 @@ This forces `Update_All` to perform a complete file verification and replace fil
 
 If you want to use a physical memory card with GameID support on the PS1 (such as MemCardPro or SD2PSX), you must patch the default PSX BIOS. First, remove the included open-source `boot.rom` from the `games/psx` folder and run **Update All**. Once the update is complete, [install and run this script to patch the default PSX BIOS](https://gist.github.com/IncognitoMan/fd1f9fbd5794af83370a5c6b02b7d6ee)
 
-### Can I use an external drive (USB hard drive or M.2 in a dock) for ROM storage?
+### Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?
 
-Yes. To prioritize an external USB drive or an M.2 drive in a dock, add the following to the top of `downloader.ini` (located in the root of the SD card), then run `update_all.sh`:
+Yes. To prioritize an external USB drive or an NVMe (not SATA) M.2 drive in a dock, add the following to the top of `downloader.ini` (located in the root of the SD card), then run `update_all.sh`:
 
 ```ini
 [MiSTer]
 storage_priority = 'prefer_external'
 ```
 
-Next, copy the entire `games` directory from the SD card to the external USB drive or M.2 drive. If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
+Next, copy the entire `games` directory from the SD card to the external USB drive or NVMe M.2 drive. If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
 
 ### MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core
 
