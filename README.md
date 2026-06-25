@@ -6,6 +6,7 @@
 * [Contents of Each Package](#contents-of-each-package)
 * [Recommended first steps once you recieve your console](#recommended-first-steps-once-you-recieve-your-console)
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
+* [Why doesn't the PS1 Controller Port on the SS work?] 
 * [NO Copyright Material is included on the SD Card Installation](#no-copyright-material-is-included-on-the-sd-card-installation)
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
@@ -65,6 +66,14 @@ This allows you to complete the initial setup and verify that everything is func
 
 The SuperStation by default, runs on the MiSTer Operating System. 
 If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation.
+
+## Why don't the PS1 Controller Ports on the SS work? 
+
+The SuperStationᵒⁿᵉ has a built-in Playstation Styled SNAC Adapter with Controller Ports and Memory Card Slots. SNAC stands for Serial Native Accessory Converter, which is  specialized adapter for MiSTer FPGA devices that enables the use of original, native console controllers and peripherals with near-zero latency. It bypasses typical USB input latency by connecting directly to the FPGA's "user port", providing an authentic, lag-free experience the same or similar to original hardware.
+
+In order to enable SNAC on the SS One
+
+This means that any BIOS files on the card are "open" versions that can be used to run games with. However, you may find that some Game Cores may still not run games that you add without additional BIOS files that the cores are dependent upon. See advanced configuration below for potential solutions.
 
 ## NO Copyright Material is included on the SD Card Installation
 
