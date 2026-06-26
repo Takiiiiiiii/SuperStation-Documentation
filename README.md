@@ -9,6 +9,7 @@
    * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
    * [Why don't the PS1 Controller Ports on the SS work? ](#why-dont-the-ps1-controller-ports-on-the-ss-work)
    * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
+   * [What is the notable exception you mentioned?](#what-is-the-notable-exception-you-mentioned)
 * [NO COPYWRITTEN MATERIAL is included on the default SD Card Installation](#no-copywritten-material-is-included-on-the-default-sd-card-installation)
   
 * [Advanced Configuration Topics](#advanced-configuration-topics)
@@ -101,6 +102,13 @@ If your SuperStationᵒⁿᵉ is paired with the optional dock, the dock include
 
 **IMPORTANT:** 
 SuperStationᵒⁿᵉ units ship with **SNAC Bypass enabled by default**. If you're trying to use the built-in PlayStation SNAC ports and they still do not work after configuring the PlayStation core correctly, verify that the physical **SNAC Bypass** switch is set to **Disabled**.
+
+### What is the notable exception you mentioned?
+
+Retro Remake has developed a brand-new Console Mode that allows users to navigate the custom interface using a PlayStation controller by default, with no additional setup required. Console Mode was designed to let users navigate the menu system and access console mode-specific options using only a PS1 controller. The caveat is that, for now, after loading most cores (with the exception of the PlayStation core), you will still need to connect the appropriate controller or input device for the selected core.
+
+For basic menu navigation outside of Console Mode, you may also need to use an external keyboard, another controller, or the IR remote included with the dock.
+The software will continue to be updated over time with additional features, expanded user options, and ongoing improvements to Console Mode.
 
 ## NO COPYWRITTEN MATERIAL is included on the default SD Card Installation
 
