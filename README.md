@@ -102,7 +102,7 @@ To enable SNAC on the SuperStationᵒⁿᵉ, launch the PlayStation core and ope
 
 This routes controller input to the built-in SNAC ports and enables saving directly to real PlayStation memory cards. You can also use official and third-party PlayStation peripherals natively, including accessories such as the Beatmania controller, Pop'n Music controller, NeGcon, racing wheels, and other compatible devices, just as you would on an original PlayStation.
 
-If you want to use a USB or Bluetooth controller—or any controller that is not connected directly to the built-in PlayStation ports—you must assign **Pad1** or **Pad2** to the appropriate emulated controller type instead of a SNAC port. This allows the PlayStation core to emulate the selected controller using your USB or Bluetooth device. You must also configure the controller mappings using the **Bind Keys** option in the PlayStation core's right-side menu.
+If you want to use a USB or Bluetooth controller (or any controller that is not connected directly to the built-in PlayStation ports) you must assign **Pad1** or **Pad2** to the appropriate emulated controller type instead of a SNAC port. This allows the PlayStation core to emulate the selected controller using your USB or Bluetooth device. You must also configure the controller mappings using the **Bind Keys** option in the PlayStation core's right-side menu.
 
 <img src="/snac2.png" width="400">  <img src="/snac3.png" width="400">
 
