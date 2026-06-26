@@ -11,6 +11,8 @@
    * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
    * [What is the notable exception you mentioned?](#what-is-the-notable-exception-you-mentioned)
 * [NO COPYWRITTEN MATERIAL is included on the default SD Card Installation](#no-copywritten-material-is-included-on-the-default-sd-card-installation)
+
+* [Console Mode Instructions and Functionality](#console-mode-instructions-and-functionality)
   
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
@@ -117,6 +119,8 @@ This means that any BIOS files on the card are "open" versions that can be used 
 -----
 
 # Console Mode Instructions and Functionality
+
+### TBD
 
 -----
 
