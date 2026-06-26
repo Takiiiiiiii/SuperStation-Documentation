@@ -8,6 +8,7 @@
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
    * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
    * [Why don't the PS1 Controller Ports on the SS work? ](#why-dont-the-ps1-controller-ports-on-the-ss-work)
+   * [I enabled these options and my controller still doesn't work](i-enabled-these-options-and-my-controller-still-doesnt-work)
 * [NO Copyright Material is included on the SD Card Installation](#no-copyright-material-is-included-on-the-sd-card-installation)
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
@@ -82,7 +83,7 @@ To enable SNAC on the SuperStationᵒⁿᵉ, launch the PlayStation core and ope
 * **Pad2:** `SNAC-port2`
 * **SNAC Memcard:** `Real`
 
-<img src="/snac.png">
+<img src="/snac.png" width="400">
 
 This routes controller input to the built-in SNAC ports and enables saving directly to real PlayStation memory cards. You can also use official and third-party PlayStation peripherals natively, including accessories such as the Beatmania controller, Pop'n Music controller, NeGcon, racing wheels, and other compatible devices, just as you would on an original PlayStation.
 
