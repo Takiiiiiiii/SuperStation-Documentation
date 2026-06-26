@@ -7,7 +7,7 @@
 * [Recommended first steps once you recieve your console](#recommended-first-steps-once-you-recieve-your-console)
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
 * [Pointers on how to use the SuperStationᵒⁿᵉ Dock](#pointers-on-how-to-use-the-superstation%E1%B5%92%E2%81%BF%E1%B5%89-dock)
-   * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
+* [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
    * [Why don't the PS1 Controller Ports on the SS work? ](#why-dont-the-ps1-controller-ports-on-the-ss-work)
    * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
    * [What is the notable exception you mentioned?](#what-is-the-notable-exception-you-mentioned)
@@ -84,7 +84,7 @@ If you prefer, [you can use Retro Remake's custom "Console Mode."](https://githu
 
 TBD
 
-### Can I use the PS1 Controller ports on my SS One? What is SNAC?
+## Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
 The SuperStationᵒⁿᵉ features built-in PlayStation-style SNAC adapter modules with controller ports and memory card slots for two players. If you plug in an original PlayStation controller and find that it doesn't work in the menus (or even in games) there are several possible reasons. To understand why, it's important to understand what SNAC is and its limitations.
 
