@@ -15,7 +15,7 @@
 ## * [Console Mode Instructions and Functionality](#console-mode-instructions-and-functionality)
   
 ## * [Advanced Configuration Topics](#advanced-configuration-topics)
-    * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
+   * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
       * [YES, Update_All is safe to use on the Super Station One!](#yes-update_all-is-safe-to-use-on-the-super-station-one)
       * [What if Update_All is not replacing an existing BIOS?](#what-if-update_all-is-not-replacing-an-existing-bios)
     * [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
