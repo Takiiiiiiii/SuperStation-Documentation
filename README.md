@@ -79,6 +79,10 @@ This allows you to complete the initial setup and verify that everything is func
 The SuperStation by default, runs on the MiSTer Operating System. 
 If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation.
 
+## Pointers on how to use the SuperStationᵒⁿᵉ Dock
+
+TBD
+
 ### Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
 The SuperStationᵒⁿᵉ features built-in PlayStation-style SNAC adapter modules with controller ports and memory card slots for two players. If you plug in an original PlayStation controller and find that it doesn't work in the menus (or even in games) there are several possible reasons. To understand why, it's important to understand what SNAC is and its limitations.
