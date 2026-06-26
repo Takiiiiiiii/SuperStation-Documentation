@@ -99,6 +99,8 @@ This routes controller input to the built-in SNAC ports and enables saving direc
 
 If you want to use a USB or Bluetooth controller—or any controller that is not connected directly to the built-in PlayStation ports—you must assign **Pad1** or **Pad2** to the appropriate emulated controller type instead of a SNAC port. This allows the PlayStation core to emulate the selected controller using your USB or Bluetooth device. You must also configure the controller mappings using the **Bind Keys** option in the PlayStation core's right-side menu.
 
+<img src="/snac2.png" width="400">  <img src="/snac3.png" width="400">
+
 ### I enabled these options and my controller still doesn't work
 
 If your SuperStationᵒⁿᵉ is paired with the optional dock, the dock includes a built-in MiSTer user port and a physical **SNAC Bypass** switch. When enabled, this switch disables the console's built-in PlayStation SNAC adapters and routes the SNAC signal to the dock's USB-style user port instead. This allows you to use external SNAC adapters with other MiSTer cores.
