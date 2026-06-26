@@ -14,7 +14,7 @@
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
       * [YES, Update_All is safe to use on the Super Station One!](#yes-update_all-is-safe-to-use-on-the-super-station-one)
-      * [What if Update_All is not replacing an existing BIOS?](
+      * [What if Update_All is not replacing an existing BIOS?](#what-if-update_all-is-not-replacing-an-existing-bios)
     * [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
     * [Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-nvme-m2-in-a-dock-for-rom-storage)
     * [MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core](#mister-main-update-with-vrr-lookahead-hdmi---cec-errors-displaying-after-loading-a-core)
@@ -102,7 +102,6 @@ SuperStationᵒⁿᵉ units ship with **SNAC Bypass enabled by default**. If you
 ## NO Copyright Material is included on the SD Card Installation
 
 This means that any BIOS files on the card are "open" versions that can be used to run games with. However, you may find that some Game Cores may still not run games that you add without additional BIOS files that the cores are dependent upon. See advanced configuration below for potential solutions.
-
 
 
 ## Advanced Configuration Topics
