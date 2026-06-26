@@ -98,7 +98,7 @@ To enable SNAC on the SuperStationᵒⁿᵉ, launch the PlayStation core and ope
 * **Pad2:** `SNAC-port2`
 * **SNAC Memcard:** `Real`
 
-<img src="/snac4.jpg" width="400">
+<img src="/images/snac4.jpg" width="400">
 
 This routes controller input to the built-in SNAC ports and enables saving directly to real PlayStation memory cards. You can also use official and third-party PlayStation peripherals natively, including accessories such as the Beatmania controller, Pop'n Music controller, NeGcon, racing wheels, and other compatible devices, just as you would on an original PlayStation.
 
