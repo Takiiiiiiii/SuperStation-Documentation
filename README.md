@@ -67,10 +67,10 @@ Additionally, if you are looking for an active community of SuperStationᵒⁿ�
 
 ## Recommended first steps once you recieve your console
 
-Before digging into set-up and configuration, make sure your package is complete and has all expected items. If you are missing anything, you can:
+Before digging into set-up and configuration, make sure your package is complete and has all expected items. If you are missing anything, you can do the following:
 - Directly respond to your Order E-mail to contact Customer Service with the missing item in the email.
 - [Send a new email](mailto:sales@retroremake.co) with your order number in the subject line and a description of the issue
-- Post in the Discord Channel under either the #superstationᵒⁿᵉ  or #superstationᵒⁿᵉ-help  channels, and tag a mod for additional help.
+- Post in the Discord Channel under either the `#superstationᵒⁿᵉ`  or `#superstationᵒⁿᵉ-help`  channels, and tag a mod for additional help.
 
 ## The SuperStationᵒⁿᵉ is designed to be relatively plug and play
 Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
