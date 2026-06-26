@@ -72,13 +72,13 @@ This allows you to complete the initial setup and verify that everything is func
 The SuperStation by default, runs on the MiSTer Operating System. 
 If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation.
 
-## Can I use the PS1 Controller ports on my SS One? What is SNAC?
+### Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
 The SuperStationᵒⁿᵉ features built-in PlayStation-style SNAC adapter modules with controller ports and memory card slots for two players. If you plug in an original PlayStation controller and find that it doesn't work in the menus (or even in games) there are several possible reasons. To understand why, it's important to understand what SNAC is and its limitations.
 
 **SNAC** (Serial Native Accessory Converter) is a specialized interface for MiSTer FPGA that allows the use of original console controllers and peripherals with near-zero latency. Unlike USB controllers, SNAC connects directly to the FPGA's user port, bypassing USB input latency and providing an experience that closely matches original hardware. Because of how SNAC works, it only functions within the MiSTer core designed for the original hardware being emulated. As a result, the built-in PlayStation SNAC ports are only typically usable within the PlayStation MiSTer core, with one notable exception explained below.
 
-## Why don't the PS1 Controller Ports on the SS work? 
+### Why don't the PS1 Controller Ports on the SS work? 
 
 To enable SNAC on the SuperStationᵒⁿᵉ, launch the PlayStation core and open the **Settings** menu by pressing the **Eject/Menu** button on the console. Scroll down to **Pad1**, **Pad2**, and **SNAC Memcard**, then change them to the following:
 
@@ -92,7 +92,7 @@ This routes controller input to the built-in SNAC ports and enables saving direc
 
 If you want to use a USB or Bluetooth controller—or any controller that is not connected directly to the built-in PlayStation ports—you must assign **Pad1** or **Pad2** to the appropriate emulated controller type instead of a SNAC port. This allows the PlayStation core to emulate the selected controller using your USB or Bluetooth device. You must also configure the controller mappings using the **Bind Keys** option in the PlayStation core's right-side menu.
 
-## I enabled these options and my controller still doesn't work
+### I enabled these options and my controller still doesn't work
 
 If your SuperStationᵒⁿᵉ is paired with the optional dock, the dock includes a built-in MiSTer user port and a physical **SNAC Bypass** switch. When enabled, this switch disables the console's built-in PlayStation SNAC adapters and routes the SNAC signal to the dock's USB-style user port instead. This allows you to use external SNAC adapters with other MiSTer cores.
 
