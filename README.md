@@ -18,7 +18,7 @@
     * [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
     * [Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-nvme-m2-in-a-dock-for-rom-storage)
     * [MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core](#mister-main-update-with-vrr-lookahead-hdmi---cec-errors-displaying-after-loading-a-core)
-    * [PSX Core Ghosting](#PSX-Core-Ghosting-on-Analog-Televisions)
+    * [PSX Core Ghosting on Analog Televisions](#PSX-Core-Ghosting-on-Analog-Televisions)
     * [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
     * [MiSTer SD Card Migration to SS One](#mister-sd-card-migration-to-ss-one)
     * [SS1 Color (Black and White) Display Issue over S-Video or Composite](#ss1-color-black-and-white-display-issue-over-s-video-or-composite)
