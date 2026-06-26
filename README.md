@@ -57,6 +57,9 @@ Additionally, if you are looking for an active community of SuperStationᵒⁿ�
 - A Business Card sized User Placard with a QR Code and basic information
 - Founder's Edition Units also come with a a Superstation sticker, and a Retro Remake sticker.
 
+**If you ordered the Dock by itself, you should have gotten:**
+- TBD
+
 ## Recommended first steps once you recieve your console
 
 Before digging into set-up and configuration, make sure your package is complete and has all expected items. If you are missing anything, you can:
