@@ -10,6 +10,7 @@
    * [Why don't the PS1 Controller Ports on the SS work? ](#why-dont-the-ps1-controller-ports-on-the-ss-work)
    * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
 * [NO Copyright Material is included on the SD Card Installation](#no-copyright-material-is-included-on-the-sd-card-installation)
+  
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
       * [YES, Update_All is safe to use on the Super Station One!](#yes-update_all-is-safe-to-use-on-the-super-station-one)
@@ -100,6 +101,8 @@ SuperStationᵒⁿᵉ units ship with **SNAC Bypass enabled by default**. If you
 ## NO Copyright Material is included on the SD Card Installation
 
 This means that any BIOS files on the card are "open" versions that can be used to run games with. However, you may find that some Game Cores may still not run games that you add without additional BIOS files that the cores are dependent upon. See advanced configuration below for potential solutions.
+
+
 
 ## Advanced Configuration Topics
 
