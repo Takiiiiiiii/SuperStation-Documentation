@@ -170,11 +170,11 @@ Next, copy the entire `games` directory from the SD card to the external USB dri
 
 ### MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core
 
-Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with the updated INI files located on this Github. 
+Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with [the updated INI files located on this Github.](/INI_Files) 
 
 ### PSX Core Ghosting on Analog Televisions
 
-If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with the version located on this Github. A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
+If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with [the version located on this Github.](/INI_Files) A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
 
 ### Preventing Unwanted (Re)Downloads
 
