@@ -6,7 +6,8 @@
 * [Contents of Each Package](#contents-of-each-package)
 * [Recommended first steps once you recieve your console](#recommended-first-steps-once-you-recieve-your-console)
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
-* [Why doesn't the PS1 Controller Port on the SS work?] 
+* [Can I?]
+* [Why doesn't the PS1 Controller Port on the SS work?](why-dont-the-ps1-controller-ports-on-the-ss-work)
 * [NO Copyright Material is included on the SD Card Installation](#no-copyright-material-is-included-on-the-sd-card-installation)
 * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
@@ -67,13 +68,26 @@ This allows you to complete the initial setup and verify that everything is func
 The SuperStation by default, runs on the MiSTer Operating System. 
 If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation.
 
+## Can I use the PS1 Controller ports on my SS One? What is SNAC?
+
+
+
 ## Why don't the PS1 Controller Ports on the SS work? 
 
-The SuperStationᵒⁿᵉ has a built-in Playstation Styled SNAC Adapter with Controller Ports and Memory Card Slots. SNAC stands for Serial Native Accessory Converter, which is  specialized adapter for MiSTer FPGA devices that enables the use of original, native console controllers and peripherals with near-zero latency. It bypasses typical USB input latency by connecting directly to the FPGA's "user port", providing an authentic, lag-free experience the same or similar to original hardware.
+The SuperStationᵒⁿᵉ has a built-in Playstation Styled SNAC Adapter Modules that include Controller Ports and Memory Card Slots for 2 players. You may find that plugging in a playstation controller doesn't allow you to operate menus or even inputs in games. There are severeal reasons why, but first, here is what SNAC is. 
 
-In order to enable SNAC on the SS One
+SNAC stands for Serial Native Accessory Converter, which is  specialized adapter for MiSTer FPGA devices that enables the use of original, native console controllers and peripherals with near-zero latency. It bypasses typical USB input latency by connecting directly to the FPGA's "user port", providing an authentic, lag-free experience the same or similar to original hardware.
 
-This means that any BIOS files on the card are "open" versions that can be used to run games with. However, you may find that some Game Cores may still not run games that you add without additional BIOS files that the cores are dependent upon. See advanced configuration below for potential solutions.
+Because of the method being used to convert signals from the controller to the game cores, SNAC as a protocol traditionally only works within the Core that the hardware converter is trying to emulate. Out of the box, the PS1 ports are only usable within the Playstation MIster Core.  
+
+In order to enable SNAC input on the SS One, you will have to go into the Settings Menu (achievably by pressing the eject/menu button on the SSone) while inside the PSX core, scroll down to Pad1: Pad2: and SNAC Memcard, and change them to SNAC-port1, SNAC-port2, and Real, respectively. This will divert all controls to those ports, and allow for the saving of save files using real memory cards.  You can use Official and 3rd Party PS1 accessories natively (such as a Beatmania controller, a Pop'n Music controller, a NeG Con or Racing Wheel for racing games) as if you were using the controllers on a real playstation. 
+
+If you want to use a USB or Bluetooth styled controller, or some other method of connecting that isnt original hardware directly hooked into the playstation ports, then you will have to change the Pad1 or Pad2 assignment to another controller port to "emulate" through the core the replication and inoputs to mimick that same denoted controller style.  You will also have to set inputs for the core using the "bind keys" function on the right side menu of the main psx core settings. 
+
+Finally, if you have a Dock with your Ss One, it comes with a built in user port and a hardware switch labeled as "SNAC bypass". This allows the user to BYpass (and disable) the PS1 based SNAC adapters on the main menu and route the snac signal to the USB shaped "user port" on the dock. 
+
+PLEASE NOTE: Units by default ship with the SNAC bypass in the ENABLED position, so if you are trying to use PSX ports in the playstation core, and even after configuring the correct hardware options and it still doesnt work, double check the snac bypass physical toggle is NOT enabled. 
+
 
 ## NO Copyright Material is included on the SD Card Installation
 
