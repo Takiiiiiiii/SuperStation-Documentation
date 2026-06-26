@@ -105,7 +105,11 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 -----
 
-## Advanced Configuration Topics
+# Console Mode Instructions and Functionality
+
+-----
+
+# Advanced Configuration Topics
 
 ### Update_All Guide & Important Config Notes
 
