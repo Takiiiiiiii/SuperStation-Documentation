@@ -104,13 +104,13 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 ### Update_All Guide & Important Config Notes
 
-**__YES, Update_All is safe to use on the Super Station One!__**
+#### YES, Update_All is safe to use on the Super Station One!
 
 It is recommended for downloading missing BIOS files required by specific cores.
 For a simple walkthrough, [follow this 5 minute vid](https://youtu.be/QWj00PfZAy8)
 Otherwise, use [Takis BIOS checker to see if you are missing any files.](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/)
 
-**__What if Update_All is not replacing an existing BIOS?__**
+#### What if Update_All is not replacing an existing BIOS?
 
 If `Update_All` is not replacing a BIOS file, first delete the BIOS you no longer want from the appropriate directory. Then, add the following to the top of `downloader.ini` (located in the root of the SD card) and run `update_all.sh`:
 
