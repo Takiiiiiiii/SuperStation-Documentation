@@ -212,7 +212,7 @@ To fix it, a corrected version of the scripts [can be found here](https://github
 
 If you experience issues with the disc tray not opening smoothly or becoming stuck during operation, try slightly loosening the screw in photo 3 to allow the tray to slide more freely. Additionally, carefully trimming the plastic in the areas indicated in photos 1 and 2 may help reduce the risk of exposed plastic burrs catching on other drive components.
 
-<img src="/images/dock1.jpg" width="300"> <img src="/images/dock2.jpg" width="300"> <img src="/images/dock3.jpg" width="300">
+<img src="/images/dock1.jpg" width="250"> <img src="/images/dock2.jpg" width="250"> <img src="/images/dock3.jpg" width="250">
 
 This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
 
