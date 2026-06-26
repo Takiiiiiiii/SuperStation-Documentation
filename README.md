@@ -2,7 +2,7 @@
 
 <img src="https://retroremake.co/cdn/shop/files/SuperDock.jpg" width="400">
 
-* [Getting Started](#getting-started)
+## * [Getting Started](#getting-started)
 * [Contents of Each Package](#contents-of-each-package)
 * [Recommended first steps once you recieve your console](#recommended-first-steps-once-you-recieve-your-console)
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
@@ -12,9 +12,9 @@
    * [What is the notable exception you mentioned?](#what-is-the-notable-exception-you-mentioned)
 * [NO COPYWRITTEN MATERIAL is included on the default SD Card Installation](#no-copywritten-material-is-included-on-the-default-sd-card-installation)
 
-* [Console Mode Instructions and Functionality](#console-mode-instructions-and-functionality)
+## * [Console Mode Instructions and Functionality](#console-mode-instructions-and-functionality)
   
-* [Advanced Configuration Topics](#advanced-configuration-topics)
+## * [Advanced Configuration Topics](#advanced-configuration-topics)
     * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
       * [YES, Update_All is safe to use on the Super Station One!](#yes-update_all-is-safe-to-use-on-the-super-station-one)
       * [What if Update_All is not replacing an existing BIOS?](#what-if-update_all-is-not-replacing-an-existing-bios)
