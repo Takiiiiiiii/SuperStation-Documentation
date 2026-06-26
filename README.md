@@ -1,6 +1,6 @@
 # SuperStation-Documentation (VERY WIP, Pardon our Dust)
 
-<img src="https://retroremake.co/cdn/shop/files/SuperDock.jpg" width="400">
+<img src="/images/ssonedock.jpg" width="400">
 
 ## * [Getting Started](#getting-started)
 * [Contents of Each Package](#contents-of-each-package)
@@ -98,13 +98,13 @@ To enable SNAC on the SuperStationᵒⁿᵉ, launch the PlayStation core and ope
 * **Pad2:** `SNAC-port2`
 * **SNAC Memcard:** `Real`
 
-<img src="/snac.png" width="400">
+<img src="/images/snac.png" width="400">
 
 This routes controller input to the built-in SNAC ports and enables saving directly to real PlayStation memory cards. You can also use official and third-party PlayStation peripherals natively, including accessories such as the Beatmania controller, Pop'n Music controller, NeGcon, racing wheels, and other compatible devices, just as you would on an original PlayStation.
 
 If you want to use a USB or Bluetooth controller (or any controller that is not connected directly to the built-in PlayStation ports) you must assign **Pad1** or **Pad2** to the appropriate emulated controller type instead of a SNAC port. This allows the PlayStation core to emulate the selected controller using your USB or Bluetooth device. You must also configure the controller mappings using the **Bind Keys** option in the PlayStation core's right-side menu.
 
-<img src="/snac2.png" width="400">  <img src="/snac3.png" width="400">
+<img src="/images/snac2.png" width="400">  <img src="/images/snac3.png" width="400">
 
 ### I enabled these options and my controller still doesn't work
 
@@ -212,7 +212,7 @@ To fix it, a corrected version of the scripts [can be found here](https://github
 
 If you experience issues with the disc tray not opening smoothly or becoming stuck during operation, try slightly loosening the screw in photo 3 to allow the tray to slide more freely. Additionally, carefully trimming the plastic in the areas indicated in photos 1 and 2 may help reduce the risk of exposed plastic burrs catching on other drive components.
 
-<img src="/dock1.jpg" width="300"> <img src="/dock2.jpg" width="300"> <img src="/dock3.jpg" width="300">
+<img src="/images/dock1.jpg" width="300"> <img src="/images/dock2.jpg" width="300"> <img src="/images/dock3.jpg" width="300">
 
 This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
 
