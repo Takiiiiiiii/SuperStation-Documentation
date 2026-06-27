@@ -173,9 +173,17 @@ Next, copy the entire `games` directory from the SD card to the external USB dri
 
 Recent updates to MiSTer Main have deprecated several configuration values found in the default SS1 MISTER.ini files. After running Update_All, you may see warnings or errors related to, "Lookahead, VRR, HDMI-CEC," etc. To resolve these messages, replace the existing `.ini` files on your SD card with [the updated INI files located on this Github.](/INI_Files) 
 
+* (Default MiSTer Main - Catch all INI for default HDMI Configutations)[INI_Files/MiSTer.ini]
+* (MiSTer RGHV - Can be used with RGB signals that have a discrete Horizontal and Vertical Sync Terminal)[INI_Files/MiSTer_RGHV.ini]
+* (MiSTer RGsB - Can be used with RGB signals that Sync on Green)[INI_Files/MiSTer_RGsB.ini]
+* (MiSTer SVID - Can be used with S-Video and Composite)[INI_Files/MiSTer_SVID.ini]
+* (MiSTer YPbP - Can be used with YPbPr Component Cables, aka Most NTSC Consumer sets)[INI_Files/MiSTer_YPbP.ini]
+
 ### PSX Core Ghosting on Analog Televisions
 
-If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the `yc.txt` file with [the version located on this Github.](/INI_Files) A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
+If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the (`yc.txt`)[INI_Files/yc.txt] file with [the version located on this Github.](/INI_Files) A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
+
+PLEASE NOTE: `yc.txt` also can address and fix potential image quality issues on other Console Cores over Composite and S-Video. A user was able to fix issues on MegaDrive byr eplacing their `yc.txt` with the ones included in this file repository. 
 
 ### Preventing Unwanted (Re)Downloads
 
