@@ -192,7 +192,7 @@ You can prevent Update_All from redownloading files that may overwrite your pref
 ``[MiSTer]
 filter = !misterexampleini !zxspectrum !spectrum !zxnext !zx81 !vectrex ``
 
-This same "!" method can be used to exclude other cores, configuration files, or other content from future Download/Update_All runs. Read [the following link](https://github.com/theypsilon/Update_All_MiSTer) for more information about configuring Update_All.
+This same "!" method can be used to exclude other cores, configuration files, or other content from future Download/Update_All runs. Refer to [this link about how to control the downloader with filters](https://github.com/MiSTer-devel/Downloader_MiSTer/blob/main/docs%2Fdownload-filters.md) and specifics on how to control what does and doesn't get downloaded. 
 
 ### MiSTer SD Card Migration to SS One
 
