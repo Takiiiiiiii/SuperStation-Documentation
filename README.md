@@ -179,6 +179,17 @@ Recent updates to MiSTer Main have deprecated several configuration values found
 * [MiSTer SVID - Can be used with S-Video and Composite](INI_Files/MiSTer_SVID.ini)
 * [MiSTer YPbP - Can be used with YPbPr Component Cables, aka Most NTSC Consumer sets](INI_Files/MiSTer_YPbP.ini)
 
+### Why do Saturn games boot to the Saturn dashboard and display "Game Disc Is Unsuitable For This System"? Why does my Playstation show errors of "Unsafe Options" when booting a game?
+
+It is likely that the in-house testing settings were changed during the SD cards creation. For example, testers may temporarily change core settings (such as Region or the PSX core's Unsafe option) for validation of the SS One Hardare, and may have forgotten to return them to their defaults before the SD card image was finalized.
+
+**It's recommended that if you run into any issues that you reset the core to its default settings. It will help eliminate leftover configuration changes that may interfere with "normal" operation and is often the quickest way to solve it.**
+
+1. Open the Core's On-Screen Display.
+2. Reset the core settings to their defaults
+3. Save Settings on the Right Page Menu.
+4. Reset the core and try launching the game again.
+
 ### PSX Core Ghosting on Analog Televisions
 
 If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the [`yc.txt`](INI_Files/yc.txt) file with [the version located on this Github.](/INI_Files) A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
