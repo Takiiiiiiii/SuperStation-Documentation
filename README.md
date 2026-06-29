@@ -24,6 +24,7 @@
 * [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
 * [Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-nvme-m2-in-a-dock-for-rom-storage)
 * [MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core](#mister-main-update-with-vrr-lookahead-hdmi---cec-errors-displaying-after-loading-a-core)
+* [Why do Saturn games boot to the Saturn dashboard and display "Game Disc Is Unsuitable For This System"? Why does my Playstation show errors of "Unsafe Options" when booting a game?](#why-do-saturn-games-boot-to-the-saturn-dashboard-and-display-game-disc-is-unsuitable-for-this-system-why-does-my-playstation-show-errors-of-unsafe-options-when-booting-a-game)
 * [PSX Core Ghosting on Analog Televisions](#PSX-Core-Ghosting-on-Analog-Televisions)
 * [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
 * [MiSTer SD Card Migration to SS One](#mister-sd-card-migration-to-ss-one)
