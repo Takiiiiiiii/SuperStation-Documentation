@@ -187,7 +187,7 @@ It is likely that the in-house testing settings were changed during the SD cards
 **It's recommended that if you run into any issues that you reset the core to its default settings. It will help eliminate leftover configuration changes that may interfere with "normal" operation and is often the quickest way to solve it.**
 
 1. Open the Core's On-Screen Display.
-2. Reset the core settings to their defaults
+2. Select the option to return the core settings to their defaults
 3. Save Settings on the Right Page Menu.
 4. Reset the core and try launching the game again.
 
