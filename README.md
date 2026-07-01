@@ -5,7 +5,7 @@
 
 ## * [Getting Started](#getting-started)
 * [Contents of Each Package](#contents-of-each-package)
-* [Recommended first steps once you recieve your console](#recommended-first-steps-once-you-recieve-your-console)
+* [Recommended first steps once you receive your console](#recommended-first-steps-once-you-receive-your-console)
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
 * [Pointers on how to use the SuperStationᵒⁿᵉ Dock](#pointers-on-how-to-use-the-superstation%E1%B5%92%E2%81%BF%E1%B5%89-dock)
 * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
@@ -67,7 +67,7 @@ Additionally, if you are looking for an active community of SuperStationᵒⁿ�
 **If you ordered the Dock by itself, you should have gotten:**
 - TBD
 
-## Recommended first steps once you recieve your console
+## Recommended first steps once you receive your console
 
 Before digging into set-up and configuration, make sure your package is complete and has all expected items. If you are missing anything, you can do the following:
 - Directly respond to your Order E-mail to contact Customer Service with the missing item in the email.
