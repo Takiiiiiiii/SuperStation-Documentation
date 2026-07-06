@@ -221,7 +221,8 @@ Input latency and display lag can be difficult to troubleshoot because they vary
 Audio can also introduce perceived lag. External speakers (particularly those connected through HDMI eARC instead of an analog audio jack) may add noticeable audio delay. Try using your TV's or Monitors built-in speakers to rule this out.
 
 Controller latency can also vary dramatically between USB, 2.4 GHz wireless, and Bluetooth connections. [Check the rpubs input latency website by clicking here](https://rpubs.com/misteraddons/inputlatency) to see how your controller performs and whether its latency is acceptable for your needs.  Additionally, after running ``update_all``, check your Scripts folder and run ``fast_USB_polling_on`` to force a 1000 Hz polling rate for all supported game pads and joysticks over USB ports. This gives your controller the best chance of minimizing input latency.
-SNAC is another option for supported native controllers (such as the original Sony PlayStation controller), but on the SS One, it only works with the correct adapter via the USER port and within compatible cores. There are also third-party solutions, such as REFLEX, that may be worth researching.
+
+SNAC is another option for supported native controllers (such as the original Sony PlayStation controller). Review the section entitled [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac) for more details. 
 
 ### SS1 Color (Black and White) Display Issue over S-Video or Composite
 
