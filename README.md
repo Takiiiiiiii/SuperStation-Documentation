@@ -161,7 +161,7 @@ Otherwise, use [Takis BIOS checker to see if you are missing any files](https://
 
 #### What if Update_All is not replacing an existing BIOS?
 
-If after you run `Update_All` and it is not replacing a BIOS file (such as the included OPEN PSX BIOS on the SD card), first you should delete the BIOS you no longer want from the appropriate directory. Then, add the following line to the top of newly created  `downloader.ini` (located in the root of the SD card) and run `update_all.sh` again:
+If after you run `Update_All` and it is not replacing a BIOS file (such as the included OPEN PSX BIOS on the SD card), first you should delete the BIOS you no longer want from the appropriate directory. Then, add the following line to the top of newly created  `downloader.ini` (located in the root of the SD card after you run `update_all` for the first time, or manually created by you) and run `update_all.sh` again:
 
 ```ini
 [MiSTer]
