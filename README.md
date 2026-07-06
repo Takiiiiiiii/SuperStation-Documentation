@@ -211,6 +211,17 @@ This same "!" method can be used to exclude other cores, configuration files, or
 
 If you want to transfer over an existing MiSTer installation from another pre-configured device to your new SS One, then you can [use the MIGRATE_sd.sh utility found at this link.](https://github.com/Natrox/MiSTer_Utils_Natrox)
 
+### Why do my controller inputs feel laggy? 
+
+The SS One Dock functions as a hub for connecting additional controllers and other accessories, so it's technically possible it could introduce a small amount of latency on the main system. However, you SHOULD FIRST CHECK the connected display, audio, and controllers before assuming the dock is the cause.
+
+Input latency and display lag can be difficult to troubleshoot because they vary significantly depending on your setup, TV or monitor, and controller. **The most common cause of perceived input lag is your display.** If you're using a TV, enable Game Mode, Low Latency Mode, PC Mode, or any similar setting to reduce display processing time. CRT displays generally provide the lowest latency, especially when using native analog connections instead of converting a digital signal to analog.
+
+Audio can also introduce perceived lag. External speakers (particularly those connected through HDMI eARC instead of an analog audio jack) may add noticeable audio delay. Try using your TV's or Monitors built-in speakers to rule this out.
+
+Controller latency can also vary dramatically between USB, 2.4 GHz wireless, and Bluetooth connections. [Check the rpubs input latency website by clicking here](https://rpubs.com/misteraddons/inputlatency) to see how your controller performs and whether its latency is acceptable for your needs.  Additionally, after running ``update_all``, check your Scripts folder and run ``fast_USB_polling_on`` to force a 1000 Hz polling rate for all supported game pads and joysticks over USB ports. This gives your controller the best chance of minimizing input latency.
+SNAC is another option for supported native controllers (such as the original Sony PlayStation controller), but on the SS One, it only works with the correct adapter via the USER port and within compatible cores. There are also third-party solutions, such as REFLEX, that may be worth researching.
+
 ### SS1 Color (Black and White) Display Issue over S-Video or Composite
 
 By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It produces a higher quality signal for S-Video and Composite. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
