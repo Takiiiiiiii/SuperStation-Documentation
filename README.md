@@ -176,7 +176,7 @@ If you want to use a physical memory card with GameID support on the PS1 (such a
 
 ### Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?
 
-Yes. To prioritize an external USB drive or an NVMe (not SATA) M.2 drive in a dock, add the following to the top of `downloader.ini` (located in the root of the SD card), then run `update_all.sh`:
+Yes. To prioritize an external USB drive or an NVMe (not SATA) M.2 drive in a dock, add the following to the top of `downloader.ini` This file is located in the root of the SD card after running update_all once, or it can be manually added by you. After the argument is in place in the INI, run `update_all.sh` again:
 
 ```ini
 [MiSTer]
