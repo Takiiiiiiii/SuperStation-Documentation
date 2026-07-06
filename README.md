@@ -6,6 +6,7 @@
 ## * [Getting Started](#getting-started)
 * [Contents of Each Package](#contents-of-each-package)
 * [Recommended first steps once you receive your console](#recommended-first-steps-once-you-receive-your-console)
+* [IMPORTANT STOCK SD CARD INFORMATION AND FLASHING PROCESS](#important-stock-sd-card-information-and-flashing-process)
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
 * [Pointers on how to use the SuperStationᵒⁿᵉ Dock](#pointers-on-how-to-use-the-superstation%E1%B5%92%E2%81%BF%E1%B5%89-dock)
 * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
