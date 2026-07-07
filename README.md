@@ -104,7 +104,7 @@ The SuperStationᵒⁿᵉ Dock currently has a configuration issue affecting NVM
 
 2. If your SuperStationᵒⁿᵉ is already running firmware version 1.0c and is functioning correctly while running Console Mode, then no additional action is required.
 
-3. If you have SuperStationᵒⁿᵉ and Dock running firmware version 1.0c, and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
+3. If you have SuperStationᵒⁿᵉ and Dock running firmware version 1.0c, and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` (375 MB) file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
 
 ## Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
