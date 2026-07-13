@@ -166,6 +166,7 @@ For a simple walkthrough, [follow this 5 minute video](https://youtu.be/QWj00PfZ
 Otherwise, use [Takis BIOS checker to see if you are missing any files](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/) if you desire to manually source your own BIOS files.
 
 <sub>Click the Thumbnail below to watch the Youtube Video Tutorial</sub>
+
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/QWj00PfZAy8/hqdefault.jpg)](https://youtu.be/QWj00PfZAy8) 
 
 #### What if Update_All is not replacing an existing BIOS?
