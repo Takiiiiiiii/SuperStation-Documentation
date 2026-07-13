@@ -165,6 +165,8 @@ In the case of the SS One, it is most recommended for downloading missing BIOS f
 For a simple walkthrough, [follow this 5 minute video](https://youtu.be/QWj00PfZAy8)
 Otherwise, use [Takis BIOS checker to see if you are missing any files](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/) if you desire to manually source your own BIOS files.
 
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/QWj00PfZAy8/hqdefault.jpg)](https://youtu.be/QWj00PfZAy8)
+
 #### What if Update_All is not replacing an existing BIOS?
 
 If after you run `Update_All` and it is not replacing a BIOS file (such as the included OPEN PSX BIOS on the SD card), first you should delete the BIOS you no longer want from the appropriate directory. Then, add the following line to the top of newly created  `downloader.ini` (located in the root of the SD card after you run `update_all` for the first time, or manually created by you) and run `update_all.sh` again:
