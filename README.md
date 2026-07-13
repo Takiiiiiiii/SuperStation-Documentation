@@ -167,7 +167,7 @@ Otherwise, use [Takis BIOS checker to see if you are missing any files](https://
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/QWj00PfZAy8/hqdefault.jpg)](https://youtu.be/QWj00PfZAy8)
 
-<small>Click the picture to watch the Youtube video Tutorial</small>
+<sub>Click the Thumbnail above to watch the Youtube Video Tutorial</sub>
 
 #### What if Update_All is not replacing an existing BIOS?
 
