@@ -160,8 +160,8 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 #### YES, Update_All is safe to use on the Super Station One!
 
-While this script is a powerful tool for updating your device and installing additional features, it can make extensive changes to your MiSTer system! You should definitely review the documentation before using it. While it is generally safe and does not typically damage your system, it may install components and content that you do not need or want. 
-In the case of the SS One, it is most recommended for downloading missing BIOS files required by specific cores.
+While this script is a powerful tool for updating your device and installing additional features, it can make extensive changes to your MiSTer system! You should definitely review the documentation before using it. While it is generally safe and does not typically damage your system, it may install components and content that you do not need or want. In the case of the SS One, it is most recommended for downloading missing BIOS files required by specific cores.
+
 For a simple walkthrough, [follow this 5 minute video](https://youtu.be/QWj00PfZAy8)
 Otherwise, use [Takis BIOS checker to see if you are missing any files](https://takiiiiiiii.github.io/MiSTer_FPGA_BIOS_Checker/) if you desire to manually source your own BIOS files.
 
