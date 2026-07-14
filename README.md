@@ -176,7 +176,7 @@ Otherwise, use [Takis BIOS checker to see if you are missing any files](https://
 To help address this issue:
 
 1. Delete the BIOS file you no longer want from the appropriate directory (i.e. 'SD Card/games/psx')
-2. If you have **not** previously run `update_all.sh`, [download the preconfigured `downloader.ini`](INI_Files/downloader.ini) and place it in the root of your SD card.
+2. If you have **NOT** previously run `update_all.sh`, [download the preconfigured `downloader.ini`](INI_Files/downloader.ini) and place it in the root of your SD card.
 3. Run `Update_All` script, and press UP before it runs to set configuration. Follow the [previously posted video tutorial for more information.](https://www.youtube.com/watch?v=QWj00PfZAy8)
 4. If you **have** previously run `update_all.sh`, you may choose instead to add the following to the end of your existing `downloader.ini`, delete the existing BIOS files, then run `update_all.sh` again:
 
@@ -193,14 +193,26 @@ If you want to use a physical memory card with GameID support on the PS1 (such a
 
 ### Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?
 
-Yes. To prioritize an external USB drive or an NVMe (not SATA) M.2 drive in a dock, add the following to the top of `downloader.ini` This file is located in the root of the SD card after running update_all once, or it can be manually added by you. After the argument is in place in the INI, run `update_all.sh` again:
+The `downloader.ini` file, which is typically created after running `update_all.sh`, can be configured to store most game-related content on external storage instead of the system SD card. Supported storage devices include:
+
+* USB drives
+* Network-mounted CIFS/SMB shares
+* NVMe (not SATA) M.2 drives in a compatible USB enclosure or dock
+
+Linux and all system files **must remain on the SD card**. The `update_all.sh` script automatically preserves this behavior.
+
+To enable external storage:
+
+1. If you **have not** previously run `update_all.sh`, [download the preconfigured `downloader.ini`](INI_Files/downloader.ini) and place it in the root of your SD card.
+2. Run `Update_All`. Before the script starts, press **Up** to open the configuration menu. For additional guidance, see the [video tutorial](https://www.youtube.com/watch?v=QWj00PfZAy8).
+3. If you **have** previously run `update_all.sh`, you can instead append the following to the end of your existing `downloader.ini`, copy the entire `games` directory from the SD card to the external drive, and then run `update_all.sh` again:
 
 ```ini
 [MiSTer]
 storage_priority = 'prefer_external'
 ```
 
-Next, copy the entire `games` directory from the SD card to the external USB drive or NVMe M.2 drive. If the drive mounts correctly, SS1 will automatically prioritize the external or docked drive.
+If the external storage mounts successfully, running `update_all.sh` on your SS One will automatically prioritize the external drive, network-mounted share, or docked NVMe drive for all future game-related downloads.
 
 ### MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core
 
