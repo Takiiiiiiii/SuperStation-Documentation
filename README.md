@@ -169,16 +169,23 @@ Otherwise, use [Takis BIOS checker to see if you are missing any files](https://
 
 [![IMAGE ALT TEXT](https://i3.ytimg.com/vi/QWj00PfZAy8/hqdefault.jpg)](https://youtu.be/QWj00PfZAy8) 
 
-#### What if Update_All is not replacing an existing BIOS?
+#### What if Update_All is NOT replacing an existing BIOS?
 
-If after you run `Update_All` and it is not replacing a BIOS file (such as the included OPEN PSX BIOS on the SD card), first you should delete the BIOS you no longer want from the appropriate directory. Then, add the following line to the top of newly created  `downloader.ini` (located in the root of the SD card after you run `update_all` for the first time, or manually created by you) and run `update_all.sh` again:
+`Update_All` does not overwrite files that already exist on the SD card without user intervention. Although `Update_All` is the recommended easiest method for obtaining working BIOS files, it will not by default replace the copyright-free "open" BIOS files included with the SuperStation One SD card, such as the Open PSX BIOS.
+
+To help address this issue:
+
+1. Delete the BIOS file you no longer want from the appropriate directory (i.e. 'SD Card/games/psx')
+2. If you have **not** previously run `update_all.sh`, [download the preconfigured `downloader.ini`](INI_Files/downloader.ini) and place it in the root of your SD card.
+3. Run `Update_All` script, and press UP before it runs to set configuration. Follow the [previously posted video tutorial for more information.](https://www.youtube.com/watch?v=QWj00PfZAy8)
+4. If you **have** previously run `update_all.sh`, you may choose instead to add the following to the end of your existing `downloader.ini`, delete the existing BIOS files, then run `update_all.sh` again:
 
 ```ini
 [MiSTer]
 file_checking = 'exhaustive'
 ```
 
-This forces `Update_All` to perform a complete file verification and replace files when necessary.
+Setting `file_checking` to `'exhaustive'` in the INI instructs `Update_All` to perform a complete file verification and replace files when necessary, such as BIOS files when enabled in the options.
 
 ### Patching your PSX Bios for Game ID
 
