@@ -91,7 +91,7 @@ YES, you can re-use the 64gb card that came with your SS one. You need to make s
 
 ## WHAT TO DO IF THE FIRMWARE FLASH IS NOT WORKING
 
-If you experience issues flashing the latest firmware, such as a blank screen after inserting the SD card into the SS One, try the following troubleshooting steps:
+If you experience issues flashing the latest firmware, such as a blank screen after inserting the SD card into the SS One while using HDMI output (and NOT analog video output), try the following troubleshooting steps:
 
 1. **Verify your power supply.**
    The most common cause of booting and flashing issues is an inadequate power supply. Connect the device directly to a wall outlet instead of a power strip, especially if the strip is shared with other high-power draw devices. Use a power supply that meets the minimum requirements of **5V/3A** or **9V/2 or 3A**. **Do not use a Nintendo Switch 1 power supply**, as it is incompatible. A Nintendo Switch 2 power supply or a Steam Deck power supply is known to work reliably, as well as any number of Power Delivery (PD) Phone Brick Power supplies. 
@@ -108,7 +108,8 @@ If you experience issues flashing the latest firmware, such as a blank screen af
 5. **Try a different HDMI cable or display.**
    If the included HDMI cable does not work, test with another known-good HDMI cable. If possible, try a different monitor or television. Computer monitors are generally recommended because they support a wider range of display resolutions and are more likely to display video during initial setup or troubleshooting.
    
-### If all else fails, please ask in the discord for additional help. But PLEASE try these fixes first before asking.
+### If all else fails, please ask in the discord for additional help. 
+## But PLEASE try these fixes first before asking.
 
 ## The SuperStationᵒⁿᵉ is designed to be relatively plug and play
 Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
