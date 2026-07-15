@@ -94,7 +94,7 @@ YES, you can re-use the 64gb card that came with your SS one. You need to make s
 If you experience issues flashing the latest firmware, such as a blank screen after inserting the SD card into the SS One, try the following troubleshooting steps:
 
 1. **Verify your power supply.**
-   The most common cause of booting and flashing issues is an inadequate power supply. Connect the device directly to a wall outlet instead of a power strip, especially if the strip is shared with other high-power draw devices. Use a power supply that meets the minimum requirements of **5V/3A** or **9V/2 or 3A**. **Do not use a Nintendo Switch 1 power supply**, as it is incompatible. A Nintendo Switch 2 power supply or a Steam Deck power supply is known to work reliably, as well as any number of Power Delivery Phone Brick Power supplies. 
+   The most common cause of booting and flashing issues is an inadequate power supply. Connect the device directly to a wall outlet instead of a power strip, especially if the strip is shared with other high-power draw devices. Use a power supply that meets the minimum requirements of **5V/3A** or **9V/2 or 3A**. **Do not use a Nintendo Switch 1 power supply**, as it is incompatible. A Nintendo Switch 2 power supply or a Steam Deck power supply is known to work reliably, as well as any number of Power Delivery (PD) Phone Brick Power supplies. 
 
 2. **Prepare the SD card correctly.**
    Completely erase and reformat the SD card, removing **all existing partitions**. The card should contain a single partition formatted as **exFAT** (preferred), although **FAT32** is also supported. After formatting, flash the firmware by following the instructions on the flashing page.
