@@ -81,12 +81,33 @@ Before digging into set-up and configuration, make sure your package is complete
 Some users are experiencing a sudden no boot/black screen issue after adding games to their SD card! **The SD cards shipped with most units are incorrectly partitioned.**  A standard Mister install is supposed to have 2 partitions. The partitions on the SD card were written in a way that they overlap. This can cause a user to unknowingly overwrite critical system data, which eventually leads to boot failure.
 
 You have 2 options: 
-1) [Flash the NEW stock SS One image installer that taki put on his github and use **SuperStation_1.1.img.zip**
+1) [Flash the NEW stock SS One image installer that taki put on his github and use the lastest **SuperStation_1.X.img.zip**
 ](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/tag/1.1) This will flash a brand new card to the stock retail image, and it should auto expand to the full capacity of your card if you are using a card bigger or smaller than 64GB. Flash this image with balenaEtcher or Rufus. **Follow the instructions on the page!!**
 
 2) [Flash a brand new Mister fusion install](https://github.com/theypsilon/ms-fusion), and then [copy/paste over the superstation default contents](https://drive.google.com/file/d/1DWhEkOmqlfy7-f3_PKBM-b2eUEwDlzj6/view?usp=sharing). Copy your own game/save/savestate files from the SD card if you already started using your SS One before doing this flashing procedure. 
 
 YES, you can re-use the 64gb card that came with your SS one. You need to make sure you COMPLETELY format it to ``ExFAT`` formatted simple volume. Remember to back up your personal stuff to your PC, before you format, to copy back to a fresh SD card install! If you have additional questions or need help flashing the new image, feel free to ask in the [Official Discord Channel!](https://discord.com/invite/2EYTb8N)
+
+## WHAT TO DO IF THE FIRMWARE FLASH IS NOT WORKING
+
+If you experience issues flashing the latest firmware, such as a blank screen after inserting the SD card into the SS One, try the following troubleshooting steps:
+
+1. **Verify your power supply.**
+   The most common cause of booting and flashing issues is an inadequate power supply. Connect the device directly to a wall outlet instead of a power strip, especially if the strip is shared with other high-power draw devices. Use a power supply that meets the minimum requirements of **5V/3A** or **9V/2 or 3A**. **Do not use a Nintendo Switch 1 power supply**, as it is incompatible. A Nintendo Switch 2 power supply or a Steam Deck power supply is known to work reliably, as well as any number of Power Delivery Phone Brick Power supplies. 
+
+2. **Prepare the SD card correctly.**
+   Completely erase and reformat the SD card, removing **all existing partitions**. The card should contain a single partition formatted as **exFAT** (preferred), although **FAT32** is also supported. After formatting, flash the firmware by following the instructions on the flashing page.
+
+3. **Additional SD card tips.**
+   As noted in the flashing instructions, the device may occasionally require the firmware image to be written more than once before it is detected. Also verify that your SD card reader is functioning properly and isn't dated or obsolete. Ensure the SD card is fully inserted into the micro SD card slot of the SS One. Incomplete insertion or poor contact with the SD card pins can prevent the device from reading the card.
+
+4. **Connect the HDMI cable directly to a display.**
+   Connect the device directly to a monitor or television without using HDMI switches, capture cards, adapters, or other intermediary devices. Confirm that both ends of the HDMI cable are securely connected.  These devices can affect the EDID that the HDMI port sends to the target monitor/ TV, and it can cause black outs as a result. 
+
+5. **Try a different HDMI cable or display.**
+   If the included HDMI cable does not work, test with another known-good HDMI cable. If possible, try a different monitor or television. Computer monitors are generally recommended because they support a wider range of display resolutions and are more likely to display video during initial setup or troubleshooting.
+   
+### If all else fails, please ask in the discord for additional help. But PLEASE try these fixes first before asking.
 
 ## The SuperStationᵒⁿᵉ is designed to be relatively plug and play
 Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
