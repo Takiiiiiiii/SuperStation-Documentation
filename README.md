@@ -105,13 +105,12 @@ If you experience issues flashing the latest firmware, such as a blank screen af
    As noted in the flashing instructions, the device may occasionally require the firmware image to be written more than once before it is detected. Also verify that your SD card reader is functioning properly and isn't dated or obsolete. Ensure the SD card is fully inserted into the micro SD card slot of the SS One. Incomplete insertion or poor contact with the SD card pins can prevent the device from reading the card.
 
 4. **Connect the HDMI cable directly to a display.**
-   Connect the device directly to a monitor or television without using HDMI switches, capture cards, adapters, or other intermediary devices. Confirm that both ends of the HDMI cable are securely connected.  These devices can affect the EDID that the HDMI port sends to the target monitor/ TV, and it can cause black outs as a result. 
+   Connect the device directly to a monitor or television without using HDMI switches, capture cards, adapters, or other intermediary devices. Confirm that both ends of the HDMI cable are securely connected.  These devices can affect the EDID that the HDMI port sends to the target monitor/ TV, and it can cause black outs as a result. **Make sure to use the HDMI Port ON THE SUPERSTATION UNIT and NOT on the Dock.** The Dock HDMI shaped port is actually an expansion slot for future use, and doesn't send video out. 
 
 5. **Try a different HDMI cable or display.**
    If the included HDMI cable does not work, test with another known-good HDMI cable. If possible, try a different monitor or television. Computer monitors are generally recommended because they support a wider range of display resolutions and are more likely to display video during initial setup or troubleshooting.
    
-### If all else fails, please ask in the discord for additional help. 
-## But PLEASE try these fixes first before asking.
+### If all else fails, please ask in the discord for additional help. PLEASE try these fixes first before asking!!
 
 ## The SuperStationᵒⁿᵉ is designed to be relatively plug and play
 Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
