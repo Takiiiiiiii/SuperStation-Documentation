@@ -64,11 +64,13 @@ Additionally, if you are looking for an active community of SuperStationᵒⁿ�
 - A USB-C Braided Cable (Power Supply not included!)
 - SD Card (preinstalled into the unit and flashed with a stock image that includes Homebrew apps)
 - A plastic cover for the Dock port.
-- A Business Card sized User Placard with a QR Code and basic information
+- A Business Card sized User Placard with a QR Code and basic information.
 - Founder's Edition Units also come with a a Superstation sticker, and a Retro Remake sticker.
 
 **If you ordered the Dock by itself, you should have gotten:**
-- TBD
+- The Super Station Dock (with NVME cover installed), and screws needed to secure to the console.
+- A IR Remote Controller wrapped in plastic with paper usage guide.
+- NO Batteries are included!
 
 ## Recommended first steps once you receive your console
 
