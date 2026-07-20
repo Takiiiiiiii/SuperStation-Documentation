@@ -11,6 +11,7 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 * Purchase date (or manufacturing date, if known)
 * Any unusual test setup (e.g. SATA M.2 drive over adapters/converters, USB enclosures, etc.)
 * Does it work? (Reads games from cores, copies files in PC mode, etc.)
+* Who are you?
 
 | MANUFACTURER | MODEL OF DRIVE | CAPACITY | DATE | TESTED? | WORKING? | USERNAME |
 | -------- | ------- | -------- | ------- | -------- | ------- | ------- |
