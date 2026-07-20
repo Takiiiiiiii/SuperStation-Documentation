@@ -1,12 +1,11 @@
 WORK IN PROGRESS LIST KEEPING TRACK OF WORKING AND QUESTIONABLE NVME DRIVES SOURCED BY USERS.
-
 I NEED THE FOLLOWING INFO TO FILL THIS OUT:
-1. manufacturer of nvme drive
-2. model of nvme drive
-3. capacity of the drive
-4. purchase date/manufacturer date
-5. if you did testing with something goofy, like using a NVME that is actually SATA, but you're converting the plug to a m.2 with external converter, or whatever
-6. DOES IT WORK FOR YOU - reads games from cores, copy files over pc mode?
+* NVMe manufacturer
+* NVMe model
+* Drive capacity
+* Purchase date (or manufacturing date, if known)
+* Any unusual test setup (e.g. SATA M.2 drive, adapters/converters, USB enclosures, etc.)
+* Does it work? (Reads games from cores, copies files in PC mode, etc.)
 
 | MANUFACTURER | MODEL OF DRIVE | CAPACITY | DATE | TESTED? | WORKING? |
 | -------- | ------- | -------- | ------- | -------- | ------- |
