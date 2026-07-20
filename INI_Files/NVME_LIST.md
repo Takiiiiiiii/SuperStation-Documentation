@@ -1,6 +1,7 @@
-WORK IN PROGRESS LIST KEEPING TRACK OF WORKING AND QUESTIONABLE NVME DRIVES SOURCED BY USERS. 
-
-REMEMBER, THE ONLY TYPES OF NVME DRIVES THAT WORK ARE M.2. DO NOT REPORT SATA BASED DRIVES, UNLESS THERE IS SOME KIND OF ADAPTER YOU'RE USING. 
+# NVMe Compatibility User Report List (Work in Progress)
+Important: Only M.2 NVMe drives are supported. Do not report SATA-based M.2 drives unless you are using a compatible adapter.
+Before reporting any issues, ensure your drive is formatted as exFAT. 
+If it is not, reformat the drive to exFAT and test again before submitting a compatibility report.
 
 <img src="/images/NVME DRIVES.jpg" width="400">
 
