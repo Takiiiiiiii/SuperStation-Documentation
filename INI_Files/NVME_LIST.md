@@ -14,6 +14,8 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 * Does it work? (Reads games from cores, copies files in PC mode, etc.)
 * Who are you?
 
+# DA DOCK-DRIVE DOSSIER
+
 | MANUFACTURER | MODEL OF DRIVE | CAPACITY | DATE | TESTED? | WORKING? | USERNAME |
 | -------- | ------- | -------- | ------- | -------- | ------- | ------- |
 | LEVEN  | JPS600 | 4TB | Feb 3, 2025 | STOCK INSTALL | WORKING | xybur |
