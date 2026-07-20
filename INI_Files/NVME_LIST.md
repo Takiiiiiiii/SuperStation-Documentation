@@ -9,5 +9,6 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 6. DOES IT WORK FOR YOU - reads games from cores, copy files over pc mode?
 
 | MANUFACTURER | MODEL OF DRIVE | CAPACITY | DATE | TESTED? | WORKING? |
-| LEVEN  | JPS600 | 4TB | Feb 3, 2025 | STOCK INSTALL | WORKING |
 | -------- | ------- | -------- | ------- | -------- | ------- |
+| LEVEN  | JPS600 | 4TB | Feb 3, 2025 | STOCK INSTALL | WORKING |
+
