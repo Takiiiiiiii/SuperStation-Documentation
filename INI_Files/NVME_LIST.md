@@ -24,4 +24,4 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Samsung | 990 EVO Plus (MZ-V9S2T0) | 2TB | Purchase date: 2026.07.09, Manufacturing date: 2025.11.08 | Transferred majority of using a UGREEN USB enclosure, the rest with SAMBA through FTP | WORKING | Lenmaer |
 | KingSpec  | NX Series NXM-2242 | 128GB | January 2026 | STOCK INSTALL | WORKING | Oliversum |
 | PNY  | M280CS2230-1TB-RB | 1 TB | Purchased June 3, 2026 | Purchased “new open box” Best Buy. Transferred games over FTP & Insignia NVME enclosure. | WORKING, FTP can stall on large transfers. Enclosure for large files| ErikPanic |
-| SANDISK (wd_black)  | SN850X, PCIE GEN4 | 2TB | ? | STOCK INSTALL | NOT WORKING IN DOCK, ONLY ENCLOSURE | JoeDanger |
+| SANDISK (wd_black)  | SN850X, PCIE GEN4 | 2TB | ? | STOCK INSTALL | ❌NOT WORKING IN DOCK, ONLY ENCLOSURE | JoeDanger |
