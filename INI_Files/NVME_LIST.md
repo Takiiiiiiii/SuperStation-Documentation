@@ -8,7 +8,7 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 * Any unusual test setup (e.g. SATA M.2 drive, adapters/converters, USB enclosures, etc.)
 * Does it work? (Reads games from cores, copies files in PC mode, etc.)
 
-| MANUFACTURER | MODEL OF DRIVE | CAPACITY | DATE | TESTED? | WORKING? |
-| -------- | ------- | -------- | ------- | -------- | ------- |
-| LEVEN  | JPS600 | 4TB | Feb 3, 2025 | STOCK INSTALL | WORKING |
+| MANUFACTURER | MODEL OF DRIVE | CAPACITY | DATE | TESTED? | WORKING? | USERNAME |
+| -------- | ------- | -------- | ------- | -------- | ------- | ------- |
+| LEVEN  | JPS600 | 4TB | Feb 3, 2025 | STOCK INSTALL | WORKING | xybur |
 
