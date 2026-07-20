@@ -269,8 +269,10 @@ PLEASE NOTE: `yc.txt` also can address and fix potential image quality issues on
 
 You can prevent Update_All from redownloading files that may overwrite your preferred configuration by adding filters to your downloader.ini on your SD card. For example, if you don't want to redownload the example ini and a handful of personal computr based cores you don't want, you could add the argument to your downloader.ini file:
 
-``[MiSTer]
-filter = !misterexampleini !zxspectrum !spectrum !zxnext !zx81 !vectrex ``
+```ini
+[MiSTer]
+filter = !mister_example-ini !zxspectrum !spectrum !zxnext !zx81 !vectrex
+```
 
 This same "!" method can be used to exclude other cores, configuration files, or other content from future Download/Update_All runs. Refer to [this link about how to control the downloader with filters](https://github.com/MiSTer-devel/Downloader_MiSTer/blob/main/docs%2Fdownload-filters.md) and specifics on how to control what does and doesn't get downloaded. 
 
