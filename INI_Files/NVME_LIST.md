@@ -25,3 +25,14 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | KingSpec  | NX Series NXM-2242 | 128GB | January 2026 | STOCK INSTALL | ✅WORKING | Oliversum |
 | PNY  | M280CS2230-1TB-RB | 1 TB | Purchased June 3, 2026 | Purchased “new open box” Best Buy. Transferred games over FTP & Insignia NVME enclosure. | ✅WORKING, FTP can stall on large transfers. Enclosure for large files| ErikPanic |
 | SANDISK (wd_black)  | SN850X, PCIE GEN4 | 2TB | ? | STOCK INSTALL | ❌NOT WORKING IN DOCK, ONLY ENCLOSURE | JoeDanger |
+| Micron  | MTFDHBA512TCK | 512GB | DEC 2019 | STOCK INSTALL | ✅WORKING | ArlenB |
+| PNY   | CS2241, Gen 4 x 4 PCIe  | 1TB | 02/14/26  | STOCK INSTALL | ✅WORKING | aihooo444  |
+
+
+
+
+
+
+
+
+
