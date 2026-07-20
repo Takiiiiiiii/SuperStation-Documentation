@@ -17,3 +17,4 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | -------- | ------- | -------- | ------- | -------- | ------- | ------- |
 | LEVEN  | JPS600 | 4TB | Feb 3, 2025 | STOCK INSTALL | WORKING | xybur |
 | Micron  | MTFDHBA512TDV | 512 GB | Jul 8, 2026 (Second hand, 3488 hours) | USB Enclosure (UGREEN) | WORKING | Alterutra |
+| Western Digital  | WD Black SN750 SE | 1TB | August 31, 2021 | STOCK INSTALL | WORKING | Chris Winters |
