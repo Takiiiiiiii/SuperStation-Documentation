@@ -19,3 +19,4 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Micron  | MTFDHBA512TDV | 512 GB | Jul 8, 2026 (Second hand, 3488 hours) | USB Enclosure (UGREEN) | WORKING | Alterutra |
 | Western Digital  | WD Black SN750 SE | 1TB | August 31, 2021 | STOCK INSTALL | WORKING | Chris Winters |
 | Samsung | 990 EVO Plus (MZ-V9S2T0) | 2TB | Purchase date: 2026.07.09, Manufacturing date: 2025.11.08 | transfered of majority of my games using a UGREEN USB enclosure, the rest with SAMBA through FTP | WORKING | Lenmaer |
+| KingSpec  | NX Series NXM-2242 | 128GB | January 2026 | STOCK INSTALL | WORKING | Oliversum |
