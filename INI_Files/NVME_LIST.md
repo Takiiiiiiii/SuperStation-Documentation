@@ -8,6 +8,6 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 5. if you did testing with something goofy, like using a NVME that is actually SATA, but you're converting the plug to a m.2 with external converter, or whatever
 6. DOES IT WORK FOR YOU - reads games from cores, copy files over pc mode?
 
-| MANUFACTURER    | MODEL OF DRIVE | CAPACITY    | DATE | TESTED?    | WORKING? |
+| MANUFACTURER | MODEL OF DRIVE | CAPACITY | DATE | TESTED? | WORKING? |
 | LEVEN  | JPS600 | 4TB | Feb 3, 2025 | STOCK INSTALL | WORKING |
 | -------- | ------- | -------- | ------- | -------- | ------- |
