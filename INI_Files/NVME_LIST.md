@@ -29,8 +29,8 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | SANDISK (wd_black)  | SN850X, PCIE GEN4 | 2TB |  July 17th 2026, Staples | STOCK INSTALL | ❌NOT WORKING IN DOCK, ONLY ENCLOSURE | JoeDanger |
 | Micron  | MTFDHBA512TCK | 512GB | DEC 2019 | STOCK INSTALL | ✅WORKING | ArlenB |
 | PNY   | CS2241, Gen 4 x 4 PCIe  | 1TB | 02/14/26  | STOCK INSTALL | ✅WORKING | aihooo444  |
-| Western Digital  | SN770  | 512GB | ? | STOCK INSTALL | ❌NOT WORKING | Efriim |
-| Western Digital (wd_black)  | SN 7100  | 1TB | 6/30/26 | STOCK INSTALL | ✅WORKING  | UbuRex |
+| Western Digital  | SN770  | 512GB | ? | STOCK INSTALL | ✅WORKING | Efriim |
+| Western Digital (wd_black)  | SN 7100  | 1TB | 6/30/26 | STOCK INSTALL | ✅WORKING (27w PSU used)  | UbuRex |
 | Gamestop (840305903046) | 23VG-GSPL-GameStop NVMe SSD-Heatsink-2TB  | 2TB | May 2026 | STOCK INSTALL | ✅WORKING, with Heatsink Removed  | SpoonMage |
 
 
