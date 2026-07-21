@@ -28,6 +28,7 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Micron  | MTFDHBA512TCK | 512GB | DEC 2019 | STOCK INSTALL | ✅WORKING | ArlenB |
 | PNY   | CS2241, Gen 4 x 4 PCIe  | 1TB | 02/14/26  | STOCK INSTALL | ✅WORKING | aihooo444  |
 | Western Digital  | SN770  | 512GB | ? | STOCK INSTALL | ❌NOT WORKING | Efriim |
+| Western Digital (wd_black)  | SN 7100  | 1TB | 6/30/26 | STOCK INSTALL | ✅WORKING  | UbuRex |
 
 
 
