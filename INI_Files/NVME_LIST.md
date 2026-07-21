@@ -1,4 +1,4 @@
-# NVMe Compatibility User Report List (Work in Progress)
+# NVMe Compatibility User Report List
 Important: Only M.2 NVMe drives are supported. Do not report SATA-based M.2 drives unless you are using a compatible adapter.
 Before reporting any issues, ensure your drive is formatted as exFAT. 
 If it is not, reformat the drive to exFAT and test again before submitting a compatibility report.
