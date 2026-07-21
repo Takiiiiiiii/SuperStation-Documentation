@@ -46,6 +46,10 @@ For a comprehensive overview of the project, including its functionality, histor
 
 Additionally, if you are looking for an active community of SuperStationᵒⁿᵉ and MiSTer Pi users, you may also join the [Official Discord Channel](https://discord.com/invite/2EYTb8N) or read related topics on the [Official Retro Remake Reddit](https://www.reddit.com/r/RetroRemake/).
 
+Review the [SuperStation One - New User Guide Video on Youtube](https://www.youtube.com/watch?v=_mMQNsauOxg) for a great summary on what to do when you receive your console. 
+
+[![IMAGE ALT TEXT](https://i3.ytimg.com/vi/_mMQNsauOxg/maxresdefault.jpg)](https://www.youtube.com/watch?v=_mMQNsauOxg) 
+
 ## Contents of Each Package
 
 **If you ordered the console by itself, you should have gotten:**
