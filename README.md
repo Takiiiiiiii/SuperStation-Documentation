@@ -178,9 +178,9 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 # Console Mode Instructions and Functionality
 
-[**GO TO THE CONSOLE MODE WIKI FOR MORE INFORMATION**](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
+[**CLICK HERE TO GO TO THE CONSOLE MODE WIKI FOR MORE INFORMATION**](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
 
-https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode
+<img src="/CONSOLE_MODE/SS4.gif" width="400"> 
 
 -----
 
