@@ -180,7 +180,7 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 [**CLICK HERE TO GO TO THE CONSOLE MODE WIKI FOR MORE INFORMATION**](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
 
-<img src="/CONSOLE_MODE/SS4.gif" width="450"> 
+[<img src="/CONSOLE_MODE/SS4.gif" width="450"> ](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
 
 -----
 
