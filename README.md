@@ -89,7 +89,7 @@ Some users are experiencing a sudden no boot/black screen issue after adding gam
 
 You have 2 options: 
 1) [Flash the NEW stock SS One image installer that taki put on his github and use the lastest **SuperStation_1.X.img.zip**
-](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/tag/1.1) This will flash a brand new card to the stock retail image, and it should auto expand to the full capacity of your card if you are using a card bigger or smaller than 64GB. Flash this image with balenaEtcher or Rufus. **Follow the instructions on the page!!**
+](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases) This will flash a brand new card to the stock retail image, and it should auto expand to the full capacity of your card if you are using a card bigger or smaller than 64GB. Flash this image with balenaEtcher or Rufus. **Follow the instructions on the page!!**
 
 2) [Flash a brand new Mister fusion install](https://github.com/theypsilon/ms-fusion), and then [copy/paste over the superstation default contents](https://drive.google.com/file/d/1DWhEkOmqlfy7-f3_PKBM-b2eUEwDlzj6/view?usp=sharing). Copy your own game/save/savestate files from the SD card if you already started using your SS One before doing this flashing procedure. 
 
@@ -128,11 +128,11 @@ If you prefer, [you can use Retro Remake's custom "Console Mode."](https://githu
 
 The SuperStationᵒⁿᵉ Dock currently has a configuration issue affecting NVMe drive support. This is due to software changes that have not yet been merged into the MiSTer Main OS branch. This issue will be resolved once the required updates are integrated and distributed. Until then, it is recommended that you follow the instructions below to prevent compatibility issues that may occur with future Console Mode updates.
 
-1. If you're starting with a brand new SuperStationᵒⁿᵉ and Dock, [flash firmware version 1.1.](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/tag/1.1) . It will address all issues until an update is pushed to ``update.sh``.
+1. If you're starting with a brand new SuperStationᵒⁿᵉ and Dock, [flash the most current firmware version](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases) . It will address all issues until an update is pushed to ``update.sh``.
 
-2. If your SuperStationᵒⁿᵉ is already running firmware version 1.0c and is functioning correctly while running Console Mode, then no additional action is required.
+2. If your SuperStationᵒⁿᵉ is already running firmware version 1.0c or higher from a previous flash, and is functioning correctly while running Console Mode, then no additional action is required.
 
-3. If you have SuperStationᵒⁿᵉ and Dock running firmware version 1.0c, and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` (375 MB) file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
+3. If you have SuperStationᵒⁿᵉ and Dock running firmware version 1.0c (or higher), and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` (375 MB) file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
 
 ## Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
@@ -180,7 +180,7 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 [**CLICK HERE TO GO TO THE CONSOLE MODE WIKI FOR MORE INFORMATION**](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
 
-<img src="/CONSOLE_MODE/SS4.gif" width="400"> 
+<img src="/CONSOLE_MODE/SS4.gif" width="450"> 
 
 -----
 
