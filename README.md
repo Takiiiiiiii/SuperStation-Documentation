@@ -122,7 +122,7 @@ Use a modern USB-C Power Delivery (PD) charger and a high-quality USB-C cable (l
 This allows you to complete the initial setup and verify that everything is functioning correctly.
 
 The SuperStation by default, runs on the MiSTer Operating System. 
-If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Retro-Remake/Downloader_MiSTer/releases/tag/latest)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation.
+If you prefer, [you can use Retro Remake's custom "Console Mode."](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)  This custom application, developed by Retro Remake, can be installed on your SD card and run on the SS One. It provides a streamlined game-launching interface and includes additional features not available in the standard MiSTer installation. The installer will be provided at the link above when it is ready. 
 
 ## Pointers on how to use the SuperStationᵒⁿᵉ Dock
 
@@ -165,10 +165,9 @@ SuperStationᵒⁿᵉ units ship with **SNAC Bypass enabled by default**. If you
 
 ### What is the notable exception you mentioned?
 
-Retro Remake has developed a brand-new Console Mode that allows users to navigate the custom interface using a PlayStation controller by default, with no additional setup required. Console Mode was designed to let users navigate the menu system and access console mode-specific options using only a PS1 controller. The caveat is that, for now, after loading most cores (with the exception of the PlayStation core), you will still need to connect the appropriate controller or input device for the selected core.
+Retro Remake has developed a [brand-new Console Mode](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode) that allows users to navigate the custom interface using a PlayStation controller by default, with no additional setup required. Console Mode was designed to let users navigate the menu system and access console mode-specific options using only a PS1 controller. The caveat is that, for now, after loading most cores (with the exception of the PlayStation core), you will still need to connect the appropriate controller or input device for the selected core.
 
-For basic menu navigation outside of Console Mode, you may also need to use an external keyboard, another controller, or the IR remote included with the dock.
-The software will continue to be updated over time with additional features, expanded user options, and ongoing improvements to Console Mode.
+For basic menu navigation outside of Console Mode, you may also need to use an external keyboard, another controller, or the IR remote included with the dock. The software will continue to be updated over time with additional features, expanded user options, and ongoing improvements to Console Mode.
 
 ## NO COPYWRITTEN MATERIAL is included on the default SD Card Installation
 
@@ -178,7 +177,7 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 # Console Mode Instructions and Functionality
 
-[**CLICK HERE TO GO TO THE CONSOLE MODE WIKI FOR MORE INFORMATION**](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
+[**CLICK HERE TO GO DIRECTLY TO THE CONSOLE MODE WIKI FOR MORE INFORMATION AND INSTALLATION LINKS**](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
 
 [<img src="/CONSOLE_MODE/SS4.gif" width="450"> ](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
 
