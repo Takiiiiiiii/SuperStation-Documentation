@@ -265,11 +265,13 @@ It is likely that the in-house testing settings were changed during the SD cards
 3. Save Settings on the Right Page Menu.
 4. Reset the core and try launching the game again.
 
-### PSX Core Ghosting on Analog Televisions
+### Core Ghosting / Color Banding on Analog Televisions (S-Video / Composite)
 
-If you see ghosted lines in the PSX core, especially when using SNAC ports over an Analog Video connection, replace the [`yc.txt`](INI_Files/yc.txt) file with [the version located on this Github.](/INI_Files) A fixed PSX core is currently in development, but this workaround should resolve the issue in the meantime.
+Ghosting line, or banding lines on cores are currently an issue if you are using the subcarrier video mode. It's recommended if you find this a concern to use the native NTSC encoder from the FPGA (DIP SW 3 Up, and vga_mode=svideo)
 
-PLEASE NOTE: `yc.txt` also can address and fix potential image quality issues on other Console Cores over Composite and S-Video. A user was able to fix Analog Line issues on the MegaDrive Core by replacing their existing `yc.txt` with the one included in this file repository. 
+If you want to continue to use the Sony CXA encoder for your setup you can use modified values in the yc.txt file. It will introduce dot crawl as a compromise, but this will mask the banding issue. Some users are using the [`yc.txt`](INI_Files/yc.txt) file [the version located on this Github.](/INI_Files).
+
+The subcarrier mode issue is currently being investigated to find a better solution.
 
 ### Preventing Unwanted (Re)Downloads
 
@@ -300,16 +302,21 @@ SNAC is another option for supported native controllers (such as the original So
 
 ### SS1 Color (Black and White) Display Issue over S-Video or Composite
 
-By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It produces a higher quality signal for S-Video and Composite. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
+This may be one of two issues:
 
-To support these cores using a more universal but lower quality method, do the following
+  1. You're SS1's vga_mode is set to subcarrier and the core does not have its feature added yet.
+  2. The yc.txt may not have a value for a newer core. (Request this be added in the MiSTer discord)
 
-1. Flip DIP SWITCH 3 UP on the side of the SS1.
-2. Open the main menu, and move Left to select a Mister Inis.
-3. Select the `SVID` profile.
-4. Set DIP SWITCH 2 DOWN if using a NTSC TV or UP if using a PAL TV.
+By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It's an alternative encoding method for S-Video and Composite that uses an external Sony CXA encoder. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
 
-With time, more stable core releases with subcarrier support will hopefully be rolled out, but this is a way to fix it for now.
+To support these cores using the native FPGA encoder, do the following
+
+  1. Flip DIP SWITCH 3 UP on the side of the SS1.
+  2. Open the main menu, and move Left to select a Mister Inis.
+  3. Select the `SVID` profile.
+  4. Set DIP SWITCH 2 DOWN if using a NTSC TV or UP if using a PAL TV.
+
+NOTE: There is currently an image quality issue with using the subcarrier vga mode and you may have a better experience using the method above until the issue is fixed.
 
 ### CIFS Mounting for network storage and related automatic scripts
 
