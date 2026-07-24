@@ -32,6 +32,7 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Western Digital  | SN770  | 512GB | ? | STOCK INSTALL | ✅WORKING (27w PSU used)  | Efriim |
 | Western Digital (wd_black)  | SN 7100  | 1TB | 6/30/26 | STOCK INSTALL | ✅WORKING  | UbuRex |
 | Gamestop (840305903046) | 23VG-GSPL-GameStop NVMe SSD-Heatsink-2TB  | 2TB | May 2026 | STOCK INSTALL | ✅WORKING, with Heatsink Removed  | SpoonMage |
+| Samsung  | 980 Pro (MZ-V8P2T0) | 2TB | 2023.04.13| Moved the SSD to an ACASIS 10Gbps M.2 USB dock to transfer 10GB+ game libraries. | ✅WORKING, Reads games; long writes require an external M.2 NVMe enclosure.  | Barry |
 
 
 
