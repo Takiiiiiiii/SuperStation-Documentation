@@ -128,11 +128,11 @@ If you prefer, [you can use Retro Remake's custom "Console Mode."](https://githu
 
 The SuperStationᵒⁿᵉ Dock currently has a configuration issue affecting NVMe drive support. This is due to software changes that have not yet been merged into the MiSTer Main OS branch. This issue will be resolved once the required updates are integrated and distributed. Until then, it is recommended that you follow the instructions below to prevent compatibility issues that may occur with future Console Mode updates.
 
-1. If you're starting with a brand new SuperStationᵒⁿᵉ and Dock, [flash the most current firmware version](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases) . It will address all issues until an update is pushed to ``update.sh``.
+1. If you're starting with a brand new SuperStationᵒⁿᵉ and Dock, it is BEST to [flash the most current firmware version](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases) . It will address all issues until an update is pushed to ``update.sh``.
 
 2. If your SuperStationᵒⁿᵉ is already running firmware version 1.0c or higher from a previous flash, and is functioning correctly while running Console Mode, then no additional action is required.
 
-3. If you have SuperStationᵒⁿᵉ and Dock running firmware version 1.0c (or higher), and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` (375 MB) file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
+3. If you have SuperStationᵒⁿᵉ and Dock currently running firmware version 1.0c, and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` (375 MB) file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
 
 ## Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
