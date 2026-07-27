@@ -303,7 +303,7 @@ SNAC is another option for supported native controllers (such as the original So
 
 This may be one of two issues:
 
-  1. You're SS1's vga_mode is set to subcarrier and the core does not have its feature added yet.
+  1. Your SS1's vga_mode is set to subcarrier and the core does not have its feature added yet.
   2. The yc.txt may not have a value for a newer core. (Request this be added in the MiSTer discord)
 
 By default, `vga_mode=subcarrier` in the Mister.ini, and DIP Switch 3 DOWN is the default SS1 config. It's an alternative encoding method for S-Video and Composite that uses an external Sony CXA encoder. However, some cores have not yet been compiled with _subcarrier support_ yet, which can result in a black-and-white image when using the default SS1 config. 
