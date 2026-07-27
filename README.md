@@ -1,5 +1,4 @@
 # SuperStation-Documentation 
-## (VERY WIP, Pardon our Dust)
 
 <img src="/images/ssonedock.jpg" width="400">
 
