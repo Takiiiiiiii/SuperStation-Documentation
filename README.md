@@ -333,8 +333,8 @@ If you experience issues with the disc tray not opening smoothly or becoming stu
 
 <img src="/images/dock1.jpg" width="250"> <img src="/images/dock2.jpg" width="250"> <img src="/images/dock3.jpg" width="250">
 
-**This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.
-**
+**This issue was caused by a manufacturing defect that has since been corrected in all subsequent dock shipments and is not expected to be an issue moving forward.**
+
 ### SS One Video Dip Switch Descriptions
 
 This applies to all units produced after December 2025:
