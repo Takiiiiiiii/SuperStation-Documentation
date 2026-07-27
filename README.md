@@ -160,8 +160,12 @@ If you want to use a USB or Bluetooth controller (or any controller that is not 
 
 If your SuperStationᵒⁿᵉ is paired with the optional dock, the dock includes a built-in MiSTer user port and a physical **SNAC Bypass** switch. When enabled, this switch disables the console's built-in PlayStation SNAC adapters and routes the SNAC signal to the dock's USB-style user port instead. This allows you to use external SNAC adapters with other MiSTer cores.
 
+<img src="/images/snac_left.jpg" width="500">
+
 **IMPORTANT:** 
 SuperStationᵒⁿᵉ units ship with **SNAC Bypass enabled by default**. If you're trying to use the built-in PlayStation SNAC ports and they still do not work after configuring the PlayStation core correctly, verify that the physical **SNAC Bypass** switch is set to **Disabled**.
+
+<img src="/images/snac_close.jpg" width="500">
 
 ### What is the notable exception you mentioned?
 
