@@ -34,7 +34,7 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Gamestop (840305903046) | 23VG-GSPL-GameStop NVMe SSD-Heatsink-2TB  | 2TB | May 2026 | STOCK INSTALL | ✅WORKING, with Heatsink Removed  | SpoonMage |
 | Samsung  | 980 Pro (MZ-V8P2T0) | 2TB | 2023.04.13| Moved the SSD to an ACASIS 10Gbps M.2 USB dock to transfer 10GB+ game libraries. | ✅WORKING, Reads games; long writes require an external M.2 NVMe enclosure.  | Barry |
 | Patriot  | P300 (P300512GM28) | 512 GB | 7/26/2026 | STOCK INSTALL, SSH-formatted (cfdisk + mkfs.exfat), games loaded via PC mode.  | ✅WORKING | frank.af |
-
+| SP Silicon Power  | FIN-SP001TBP34A60M28 (A60) | 1 TB | Jan 29, 2025 | STOCK INSTALL | ✅WORKING | Xamaryllix |
 
 
 
