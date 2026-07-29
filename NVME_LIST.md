@@ -36,6 +36,8 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Patriot  | P300 (P300512GM28) | 512 GB | 7/26/2026 | STOCK INSTALL, SSH-formatted (cfdisk + mkfs.exfat), games loaded via PC mode.  | ✅WORKING | frank.af |
 | SP Silicon Power  | FIN-SP001TBP34A60M28 (A60) | 1 TB | Jan 29, 2025 | STOCK INSTALL | ✅WORKING | Xamaryllix |
 | SK Hynix | BC511 | 1TB | Previously used | STOCK INSTALL | ✅WORKING | Drakthius |
+| Samsung  | 990 Pro (2280) | 2TB | Mar 2023 | STOCK INSTALL | ✅WORKING |  McDermotX |
+|  Western Digital  | SN740 (2230) | 2TB | Aug 2023 | STOCK INSTALL | ❓Unreliable. Several reboots w/ different PSUs. Drive works fine in PC. |  McDermotX |
 
 
 
