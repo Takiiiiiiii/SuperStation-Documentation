@@ -2,39 +2,37 @@
 
 <img src="/images/ssonedock.jpg" width="400">
 
-## * [Getting Started](#getting-started)
+* [Getting Started](#getting-started)
 * [Contents of Each Package](#contents-of-each-package)
 * [Recommended first steps once you receive your console](#recommended-first-steps-once-you-receive-your-console)
 * [IMPORTANT STOCK SD CARD INFORMATION AND FLASHING PROCESS](#important-stock-sd-card-information-and-flashing-process)
 * [WHAT TO DO IF THE FIRMWARE FLASH IS NOT WORKING](#what-to-do-if-the-firmware-flash-is-not-working)
-* [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
-* [Pointers on how to use the SuperStationᵒⁿᵉ Dock](#pointers-on-how-to-use-the-superstation%E1%B5%92%E2%81%BF%E1%B5%89-dock)
+* [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstation-is-designed-to-be-relatively-plug-and-play)
+* [Pointers on how to use the SuperStationᵒⁿᵉ Dock](#pointers-on-how-to-use-the-superstation-dock)
+    * [Using the Superdock Remote](#using-the-superdock-remote)
 * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
-   * [Why don't the PS1 Controller Ports on the SS work? ](#why-dont-the-ps1-controller-ports-on-the-ss-work)
-   * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
-   * [What is the notable exception you mentioned?](#what-is-the-notable-exception-you-mentioned)
+    * [Why don't the PS1 Controller Ports on the SS work?](#why-dont-the-ps1-controller-ports-on-the-ss-work)
+    * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
+    * [What is the notable exception you mentioned?](#what-is-the-notable-exception-you-mentioned)
 * [NO COPYWRITTEN MATERIAL is included on the default SD Card Installation](#no-copywritten-material-is-included-on-the-default-sd-card-installation)
-
-## * [Console Mode Instructions and Functionality](#console-mode-instructions-and-functionality)
-  
-## * [Advanced Configuration Topics](#advanced-configuration-topics)
-
-* [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
-  * [YES, Update_All is safe to use on the Super Station One!](#yes-update_all-is-safe-to-use-on-the-super-station-one)
-  * [What if Update_All is not replacing an existing BIOS?](#what-if-update_all-is-not-replacing-an-existing-bios)
-* [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
-* [Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-nvme-m2-in-a-dock-for-rom-storage)
-* [MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core](#mister-main-update-with-vrr-lookahead-hdmi---cec-errors-displaying-after-loading-a-core)
-* [Why do Saturn games boot to the Saturn dashboard and display "Game Disc Is Unsuitable For This System"? Why does my Playstation show errors of "Unsafe Options" when booting a game?](#why-do-saturn-games-boot-to-the-saturn-dashboard-and-display-game-disc-is-unsuitable-for-this-system-why-does-my-playstation-show-errors-of-unsafe-options-when-booting-a-game)
-* [PSX Core Ghosting on Analog Televisions](#PSX-Core-Ghosting-on-Analog-Televisions)
-* [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
-* [MiSTer SD Card Migration to SS One](#mister-sd-card-migration-to-ss-one)
-* [Why do my controller inputs feel laggy?](#why-do-my-controller-inputs-feel-laggy)
-* [SS1 Color (Black and White) Display Issue over S-Video or Composite](#ss1-color-black-and-white-display-issue-over-s-video-or-composite)
-* [CIFS Mounting for network storage and related automatic scripts](#cifs-mounting-for-network-storage-and-related-automatic-scripts)
-* [SS Dock Disc Tray Mod (Thanks to user Omn1Slash for the photos)](#ss-dock-disc-tray-mod-thanks-to-user-omn1slash-for-the-photos)
-* [SS One Video Dip Switch Descriptions](#ss-one-video-dip-switch-descriptions)
-* [PAL Considerations over Analog CRT Sets](#pal-considerations-over-analog-crt-sets)
+* [Console Mode Instructions and Functionality](#console-mode-instructions-and-functionality)
+* [Advanced Configuration Topics](#advanced-configuration-topics)
+    * [Update_All Guide & Important Config Notes](#update_all-guide--important-config-notes)
+        * [YES, Update_All is safe to use on the Super Station One!](#yes-update_all-is-safe-to-use-on-the-super-station-one)
+        * [What if Update_All is NOT replacing an existing BIOS?](#what-if-update_all-is-not-replacing-an-existing-bios)
+    * [Patching your PSX Bios for Game ID](#patching-your-psx-bios-for-game-id)
+    * [Can I use an external drive (USB hard drive or NVMe M.2 in a dock) for ROM storage?](#can-i-use-an-external-drive-usb-hard-drive-or-nvme-m2-in-a-dock-for-rom-storage)
+    * [MiSTer Main Update with VRR Lookahead HDMI - CEC errors displaying after loading a Core](#mister-main-update-with-vrr-lookahead-hdmi---cec-errors-displaying-after-loading-a-core)
+    * [Why do Saturn games boot to the Saturn dashboard and display "Game Disc Is Unsuitable For This System"? Why does my Playstation show errors of "Unsafe Options" when booting a game?](#why-do-saturn-games-boot-to-the-saturn-dashboard-and-display-game-disc-is-unsuitable-for-this-system-why-does-my-playstation-show-errors-of-unsafe-options-when-booting-a-game)
+    * [Core Ghosting / Color Banding on Analog Televisions (S-Video / Composite)](#core-ghosting--color-banding-on-analog-televisions-s-video--composite)
+    * [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
+    * [MiSTer SD Card Migration to SS One](#mister-sd-card-migration-to-ss-one)
+    * [Why do my controller inputs feel laggy?](#why-do-my-controller-inputs-feel-laggy)
+    * [SS1 Color (Black and White) Display Issue over S-Video or Composite](#ss1-color-black-and-white-display-issue-over-s-video-or-composite)
+    * [CIFS Mounting for network storage and related automatic scripts](#cifs-mounting-for-network-storage-and-related-automatic-scripts)
+    * [SS Dock Disc Tray Mod (Thanks to user Omn1Slash for the photos)](#ss-dock-disc-tray-mod-thanks-to-user-omn1slash-for-the-photos)
+    * [SS One Video Dip Switch Descriptions](#ss-one-video-dip-switch-descriptions)
+    * [PAL Considerations over Analog CRT Sets](#pal-considerations-over-analog-crt-sets)
 
 ## Getting Started
 
@@ -112,8 +110,8 @@ If you experience issues flashing the latest firmware, such as a blank screen af
 
 5. **Try a different HDMI cable or display.**
    If the included HDMI cable does not work, test with another known-good HDMI cable. If possible, try a different monitor or television. Computer monitors are generally recommended because they support a wider range of display resolutions and are more likely to display video during initial setup or troubleshooting.
-   
-### If all else fails, please ask in the discord for additional help. PLEASE try these fixes first before asking!!
+
+**If all else fails, please ask in the discord for additional help. PLEASE try these fixes first before asking!!**
 
 ## The SuperStationᵒⁿᵉ is designed to be relatively plug and play
 Before powering on the console for the first time, connect it to a TV or supported monitor using the included HDMI cable. 
@@ -132,6 +130,18 @@ The SuperStationᵒⁿᵉ Dock currently has a configuration issue affecting NVM
 2. If your SuperStationᵒⁿᵉ is already running firmware version 1.0c or higher from a previous flash, and is functioning correctly while running Console Mode, then no additional action is required.
 
 3. If you have SuperStationᵒⁿᵉ and Dock currently running firmware version 1.0c, and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` (375 MB) file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
+
+### Using the Superdock Remote
+
+The included Superdock remote maps the following keys for navigating the UI:
+
+| Remote Button | Key                     |
+|---------------|-------------------------|
+| Menu          |                     F12 |
+| Cancel        |                       x |
+| OK            |                   Enter |
+| Exit          |                  Escape |
+| Up/Down/Left/Right | Up/Down/Left/Right |
 
 ## Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
@@ -178,7 +188,7 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 -----
 
-# Console Mode Instructions and Functionality
+## Console Mode Instructions and Functionality
 
 [**CLICK HERE TO GO DIRECTLY TO THE CONSOLE MODE WIKI FOR MORE INFORMATION AND INSTALLATION LINKS**](https://github.com/Takiiiiiiii/SuperStation-Documentation/wiki/Console-Mode)
 
@@ -186,7 +196,7 @@ This means that any BIOS files on the card are "open" versions that can be used 
 
 -----
 
-# Advanced Configuration Topics
+## Advanced Configuration Topics
 
 ### Update_All Guide & Important Config Notes
 
