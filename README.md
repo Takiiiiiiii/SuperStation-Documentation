@@ -9,8 +9,9 @@
 * [WHAT TO DO IF THE FIRMWARE FLASH IS NOT WORKING](#what-to-do-if-the-firmware-flash-is-not-working)
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
 * [Pointers on how to use the SuperStationᵒⁿᵉ Dock](#pointers-on-how-to-use-the-superstation%E1%B5%92%E2%81%BF%E1%B5%89-dock)
+* * [Using the Superdock Remote](#using-the-superdock-remote)
 * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
-   * [Why don't the PS1 Controller Ports on the SS work? ](#why-dont-the-ps1-controller-ports-on-the-ss-work)
+   * [Why don't the PS1 Controller Ports on the SS work?](#why-dont-the-ps1-controller-ports-on-the-ss-work)
    * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
    * [What is the notable exception you mentioned?](#what-is-the-notable-exception-you-mentioned)
 * [NO COPYWRITTEN MATERIAL is included on the default SD Card Installation](#no-copywritten-material-is-included-on-the-default-sd-card-installation)
@@ -132,6 +133,18 @@ The SuperStationᵒⁿᵉ Dock currently has a configuration issue affecting NVM
 2. If your SuperStationᵒⁿᵉ is already running firmware version 1.0c or higher from a previous flash, and is functioning correctly while running Console Mode, then no additional action is required.
 
 3. If you have SuperStationᵒⁿᵉ and Dock currently running firmware version 1.0c, and the Dock does **not** have an NVMe drive installed, [replace the ``linux.img`` (375 MB) file on your included SD card](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases/download/1.1/linux.img) with the linked version available on GitHub to prevent reboot and compatibility issues.
+
+### Using the Superdock Remote
+
+The included Superdock remote maps the following keys for navigating the UI:
+
+| Remote Button | Key                     |
+|---------------|-------------------------|
+| Menu          |                     F12 |
+| Cancel        |                       x |
+| OK            |                   Enter |
+| Exit          |                  Escape |
+| Up/Down/Left/Right | Up/Down/Left/Right |
 
 ## Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
