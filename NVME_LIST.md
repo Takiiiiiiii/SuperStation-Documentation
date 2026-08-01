@@ -40,3 +40,4 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Western Digital | SN740 (2230) | 2TB | Aug 2023 | STOCK INSTALL | ❓Unreliable. Several reboots w/ different PSUs. Drive works fine in PC. |  McDermotX |
 | SK Hynix  | HFS256GD9TNG-62A0A | 256 GB | Between July 30th - Aug 5th 2018 | STOCK INSTALL, gets hot? | ✅WORKING | KingGarlock |
 | Crucial   | P3 Plus PCIe 4.0 M.2 2280 | 1TB | May 13th 2024 | STOCK INSTALL | ✅WORKING | Phantom Lord |
+| Samsung  | 990 Pro | 2 TB |  7/31/26 | STOCK INSTALL | ✅WORKING | Vade  |
