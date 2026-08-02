@@ -41,3 +41,4 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | SK Hynix  | HFS256GD9TNG-62A0A | 256 GB | Between July 30th - Aug 5th 2018 | STOCK INSTALL, gets hot? | ✅WORKING | KingGarlock |
 | Crucial   | P3 Plus PCIe 4.0 M.2 2280 | 1TB | May 13th 2024 | STOCK INSTALL | ✅WORKING | Phantom Lord |
 | Samsung  | 990 Pro | 2 TB |  7/31/26 | STOCK INSTALL | ✅WORKING | Vade  |
+| Samsung | 970 EVO MZ-V7E500 2280  | 500 GB |  recently, second hand | ENCLOSURE & STOCK INSTALL | ✅WORKING | egparadigm |
