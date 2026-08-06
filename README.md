@@ -349,6 +349,9 @@ If you experience issues with the disc tray not opening smoothly or becoming stu
 
 ### SS One Video Dip Switch Descriptions
 
+<img src="https://retrorgb.com/wp-content/uploads/2026/03/SuperStationOneExternlDIP.jpg" width="400">
+-# Thank you RetroRGB for the source image. 
+
 This applies to all units produced after December 2025:
 
 | DIP Switch | Setting             | Up Position | Down Position |
