@@ -351,7 +351,7 @@ If you experience issues with the disc tray not opening smoothly or becoming stu
 
 This applies to all units produced after December 2025:
 
-| # | Setting             | Up Position | Down Position |
+| DIP Switch | Setting             | Up Position | Down Position |
 | - | ------------------- | ----------- | ------------- |
 | 1 | YC/Composite Region | PAL         | NTSC          |
 | 2 | FPGA LUMA Trap      | PAL         | NTSC          |
