@@ -242,7 +242,7 @@ The `downloader.ini` file, which is typically created after running `update_all.
 
 * USB drives
 * Network-mounted CIFS/SMB shares
-* NVMe (not SATA) M.2 drives in a compatible USB enclosure or dock
+* NVMe (not SATA) M.2 drives in a compatible USB enclosure or dock - It is recommended to source a PCIe Gen 3 NVME SSD. Some Gen 4 SSDs have proven troublesome. We suspect it's because they draw more power causing voltage sag and brownouts.
 
 Linux and all system files **must remain on the SD card**. The `update_all.sh` script automatically preserves this behavior.
 
