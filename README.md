@@ -10,6 +10,7 @@
 * [The SuperStationᵒⁿᵉ is designed to be relatively plug and play](#the-superstationᵒⁿᵉ-is-designed-to-be-relatively-plug-and-play)
 * [Pointers on how to use the SuperStationᵒⁿᵉ Dock](#pointers-on-how-to-use-the-superstation%E1%B5%92%E2%81%BF%E1%B5%89-dock)
 * * [Using the Superdock Remote](#using-the-superdock-remote)
+* * [Replacing the Disc Drive in the Superdock](#replacing-the-disc-drive-in-a-superdock)
 * [Can I use the PS1 Controller ports on my SS One? What is SNAC?](#can-i-use-the-ps1-controller-ports-on-my-ss-one-what-is-snac)
    * [Why don't the PS1 Controller Ports on the SS work?](#why-dont-the-ps1-controller-ports-on-the-ss-work)
    * [I enabled these options and my controller still doesn't work](#i-enabled-these-options-and-my-controller-still-doesnt-work)
