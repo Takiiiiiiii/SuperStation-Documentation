@@ -146,6 +146,12 @@ The included Superdock remote maps the following keys for navigating the UI:
 | Exit          |                  Escape |
 | Up/Down/Left/Right | Up/Down/Left/Right |
 
+### Replacing the Disc Drive in a Superdock
+
+Community user RalphUp created an iFixit guide for replacing the optical disc drive. Please find the link below.
+
+https://www.ifixit.com/Guide/Retro+Remake+Superstation+One+Dock+Optical+Disk+Drive+Replacement+-+Slot+Loader/228266
+
 ## Can I use the PS1 Controller ports on my SS One? What is SNAC?
 
 The SuperStationᵒⁿᵉ features built-in PlayStation-style SNAC adapter modules with controller ports and memory card slots for two players. If you plug in an original PlayStation controller and find that it doesn't work in the menus (or even in games) there are several possible reasons. To understand why, it's important to understand what SNAC is and its limitations.
