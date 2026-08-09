@@ -42,3 +42,4 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Crucial   | P3 Plus PCIe 4.0 M.2 2280 | 1TB | May 13th 2024 | STOCK INSTALL | ✅WORKING | Phantom Lord |
 | Samsung  | 990 Pro | 2 TB |  7/31/26 | STOCK INSTALL | ✅WORKING | Vade  |
 | Samsung | 970 EVO MZ-V7E500 2280  | 500 GB |  recently, second hand | ENCLOSURE & STOCK INSTALL | ✅WORKING | egparadigm |
+| Patriot   | P300, P300P512GM28 model | 512 GB | 08/01/26 | STOCK INSTALL | ✅WORKING | Silver-Streak |
