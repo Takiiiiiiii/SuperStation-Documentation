@@ -46,4 +46,6 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Difinity | DIF2TOGIMAI298, PCle Gen3 x4 | 2 TB | July 28th 2026 | USB Enclosure (SSK) + Stock install with heatsink | ✅WORKING | SamDansCouch |
 |  Lexar   | NM610 PRO (2280) | 500 GB | 13 aug, 2026 | STOCK INSTALL | ✅WORKING | 0 |
 | KIOXIA | BG6 Series,<br/>KBG60ZNV1T02,<br/>PCIe Gen4x4 | 1 TB | October 15, 2024<br/>(purchased used) | STOCK INSTALL | ✅WORKING | notmayo |
-
+| SanDisk  | Extreme SSD Portable,<br/>SDSSDE61-1T00 | 1TB | 2023 | STOCK INSTALL | ✅WORKING | mikochu |
+|  Silicon Power  | PCIe Gen 3x4 M.2 2280 SSD P34A60 | 1TB | August 2026 | STOCK INSTALL | ✅WORKING | typhoonjim |
+| Samsung  | 990 Evo Plus (MZ-V9S1T0B/AM) | 1TB | August 17th 2026 | STOCK INSTALL | ✅WORKING |  shaa.azunaburu |
