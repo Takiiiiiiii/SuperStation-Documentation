@@ -49,3 +49,16 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | SanDisk  | Extreme SSD Portable,<br/>SDSSDE61-1T00 | 1TB | 2023 | STOCK INSTALL | ✅WORKING | mikochu |
 |  Silicon Power  | PCIe Gen 3x4 M.2 2280 SSD P34A60 | 1TB | August 2026 | STOCK INSTALL | ✅WORKING | typhoonjim |
 | Samsung  | 990 Evo Plus (MZ-V9S1T0B/AM) | 1TB | August 17th 2026 | STOCK INSTALL | ✅WORKING |  shaa.azunaburu |
+| Klngchuxing  | M.2 WME PCIE 3.0 Plus | 2TB | ??? | STOCK INSTALL | ✅WORKING | Waifupls |
+
+
+
+
+
+
+
+
+
+
+
+
