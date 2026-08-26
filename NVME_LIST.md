@@ -51,7 +51,7 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Samsung  | 990 Evo Plus (MZ-V9S1T0B/AM) | 1TB | August 17th 2026 | STOCK INSTALL | ✅WORKING |  shaa.azunaburu |
 | Klngchuxing  | M.2 WME PCIE 3.0 Plus | 2TB | ??? | STOCK INSTALL | ✅WORKING | Waifupls |
 | Patriot   | P400 Lite NVMe PCIe 4.0 M.2 Internal SSD | 2TB | August 25, 2026 | STOCK INSTALL | ✅WORKING | MarkMan |
-
+| Kingston   | OS24002 NVMe PCIe 4.0 M.2 2230 Internal SSD | 512GB | Unknown | STOCK INSTALL | ✅WORKING | Xoltol |
 
 
 
