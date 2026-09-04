@@ -53,3 +53,4 @@ I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 | Patriot   | P400 Lite NVMe PCIe 4.0 M.2 Internal SSD | 2TB | August 25, 2026 | STOCK INSTALL | ✅WORKING | MarkMan |
 | Kingston   | OS24002 NVMe PCIe 4.0 M.2 2230 Internal SSD | 512GB | Unknown | STOCK INSTALL | ✅WORKING | Xoltol |
 | Raspberry Pi | NVMe (1.4) PCIe Gen 3 M.2 2230 Internal SSD | 256GB | September 2, 2026 | STOCK INSTALL | ✅WORKING | Δlain |
+| HUADISK | NVMe PCIe Gen 3.0X4 M.2 Internal SSD | 128GB | September 3, 2026 | STOCK INSTALL | ✅WORKING | Δlain |
