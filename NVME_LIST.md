@@ -7,7 +7,13 @@ If it is not, reformat the drive to exFAT and test again before submitting a com
 
 ### BEFORE REPORTING DRIVE-RELATED ISSUES, ENSURE YOUR POWER SUPPLY PROVIDES SUFFICIENT POWER AND HEADROOM FOR YOUR SYSTEM. IF A DRIVE FUNCTIONS INTERMITTENTLY OR STOPS WORKING UNEXPECTEDLY, VERIFY THE POWER SUPPLY FIRST. THIS LIST IS INTENDED FOR REPORTING DRIVE ISSUES, NOT PROBLEMS CAUSED BY INADEQUATE OR UNSTABLE POWER.
 
-I NEED THE FOLLOWING INFO TO FILL THIS OUT:
+### Super Station One NVMe PSA (shout-out to ConcerningCashew for the info): 
+
+Current testing suggests the issue in NVMe SSD's that don't work in the SS One Dock is related to POWER DRAW/Higher Power States, and NOT to specific to any particular PCIe generation. For the best chance of avoiding power/brownout/data-read issues, choose an SSD with LESS THAN 5W max power draw. Avoid drives exceeding 5W, such as the WD SN850X, Samsung 990 Evo Pro, Samsung 9100 Pro, FireCuda 530R, and Crucial P310. Check SSD specs Database on this website before buying:  
+https://www.techpowerup.com/ssd-specs/
+(Note, drives showing “Unknown” power draw or NVMe 1.4 may potentially have a better chance to work)
+
+## I NEED THE FOLLOWING INFO TO FILL THIS OUT:
 * NVMe manufacturer
 * NVMe model
 * Drive capacity
