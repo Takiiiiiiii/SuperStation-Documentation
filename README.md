@@ -359,6 +359,7 @@ If you experience issues with the disc tray not opening smoothly or becoming stu
 <sub>[Credit to RetroRGB](https://retrorgb.com/) for the source image.</sub>
 <img src="https://retrorgb.com/wp-content/uploads/2026/03/SuperStationOneExternlDIP.jpg" width="500">
 
+
 This applies to all units produced after December 2025:
 | DIP Switch | Setting             | Up Position | Down Position |
 | - | ------------------- | ----------- | ------------- |
