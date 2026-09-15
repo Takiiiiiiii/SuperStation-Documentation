@@ -88,11 +88,14 @@ Before digging into set-up and configuration, make sure your package is complete
 
 Some users are experiencing a sudden no boot/black screen issue after adding games to their SD card! **The SD cards shipped with most units are incorrectly partitioned.**  A standard Mister install is supposed to have 2 partitions. The partitions on the SD card were written in a way that they overlap. This can cause a user to unknowingly overwrite critical system data, which eventually leads to boot failure.
 
-You have 2 options: 
-1) [Flash the NEW stock SS One image installer that taki put on his github and use the lastest **SuperStation_1.X.img.zip**
+YOUR BEST OPTION IS TO:
+
+1) [Flash the NEWEST stock SS One image installer that taki put on his github and use the lastest **SuperStation_X.X.img.zip**
 ](https://github.com/Retro-Remake/SuperStation-SD-Card-Installer/releases) This will flash a brand new card to the stock retail image, and it should auto expand to the full capacity of your card if you are using a card bigger or smaller than 64GB. Flash this image with balenaEtcher or Rufus. **Follow the instructions on the page!!**
 
-2) [Flash a brand new Mister fusion install](https://github.com/theypsilon/ms-fusion), and then [copy/paste over the superstation default contents](https://drive.google.com/file/d/1DWhEkOmqlfy7-f3_PKBM-b2eUEwDlzj6/view?usp=sharing). Copy your own game/save/savestate files from the SD card if you already started using your SS One before doing this flashing procedure. 
+OTHERWISE YOU CAN: 
+
+2) [Flash a brand new Mister fusion install](https://github.com/theypsilon/ms-fusion). Copy your own game/save/savestate files from the SD card if you already started using your SS One before doing this flashing procedure. 
 
 YES, you can re-use the 64gb card that came with your SS one. You need to make sure you COMPLETELY format it to ``ExFAT`` formatted simple volume. Remember to back up your personal stuff to your PC, before you format, to copy back to a fresh SD card install! If you have additional questions or need help flashing the new image, feel free to ask in the [Official Discord Channel!](https://discord.com/invite/2EYTb8N)
 
