@@ -56,3 +56,4 @@ Users are welcome to submit Pull Requests with additional changes. However, I wi
 | HUADISK | NVMe PCIe Gen 3.0X4 M.2 Internal SSD | 128GB | September 3, 2026 | STOCK INSTALL | ✅WORKING | Δlain |
 | Kingston   | NV3 M.2 2280 NVMe SSD, PCIe 4.0 Gen 4x4 | 1TB | Feb 3, 2025 | STOCK INSTALL | ✅WORKING | n00dlez311 |
 | Toshiba | KXG50ZNV256G - NVMe 3.0x4 M.2 2280 Internal SSD | 256GB | September 8, 2026 | STOCK INSTALL | ✅WORKING | Δlain |
+| Lexar | NM790 NVMe 4.0x4 M.2 2280 Internal SSD | 2TB | September 18, 2026 | STOCK INSTALL | ✅WORKING | jeremyj563 |
