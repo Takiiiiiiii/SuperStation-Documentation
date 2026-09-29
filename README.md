@@ -32,6 +32,7 @@
 * [Preventing Unwanted (Re)Downloads](#preventing-unwanted-redownloads)
 * [MiSTer SD Card Migration to SS One](#mister-sd-card-migration-to-ss-one)
 * [Why do my controller inputs feel laggy?](#why-do-my-controller-inputs-feel-laggy)
+* [My SS One is TOO Hot!](#my-ss-one-is-too-hot)
 * [SS1 Color (Black and White) Display Issue over S-Video or Composite](#ss1-color-black-and-white-display-issue-over-s-video-or-composite)
 * [CIFS Mounting for network storage and related automatic scripts](#cifs-mounting-for-network-storage-and-related-automatic-scripts)
 * [SS Dock Disc Tray Mod (Thanks to user Omn1Slash for the photos)](#ss-dock-disc-tray-mod-thanks-to-user-omn1slash-for-the-photos)
